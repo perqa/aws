@@ -1,0 +1,1316 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="resources/sheet.css">
+<style type="text/css">
+.ritz .waffle a {
+    color: inherit;
+}
+
+
+
+.waffle {
+    font-size: 13px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-style: none;
+    border-spacing: 0;
+    width: 0;
+    cursor: default;
+}
+
+/*
+Category cells:
+[td.s3, td.s8, td.s11, td.s14, td.s17, td.s20, td.s23, td.s26, td.s29, td.s32, td.s35]
+Service cells: category class+1: s4, s9, etc
+Description cells: category class+2: s5, s10, etc
+White right cell: s6
+*/
+
+
+/* Cells background coulours */
+
+.ritz .waffle .s3 {
+    background-color: #ead1dc;
+}
+
+.ritz .waffle .s8 {
+    background-color: #d9d2e9;
+}
+
+.ritz .waffle .s11 {
+    background-color: #cfe2f3;
+}
+
+.ritz .waffle .s14 {
+    background-color: #c9daf8;
+}
+
+.ritz .waffle .s17 {
+    background-color: #d0e0e3;
+}
+
+.ritz .waffle .s20 {
+    background-color: #d9ead3;
+}
+
+.ritz .waffle .s23 {
+    background-color: #fff2cc;
+}
+
+.ritz .waffle .s26 {
+    background-color: #fce5cd;
+}
+
+.ritz .waffle .s29 {
+    background-color: #f4cccc;
+}
+
+.ritz .waffle .s32 {
+    background-color: #e6b8af;
+}
+
+
+/* Categories */
+
+.ritz .waffle .category {
+    border-bottom: 1px SOLID #aaaaaa;
+    border-right: 1px SOLID #aaaaaa;
+    writing-mode: vertical-rl;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 16pt;
+    vertical-align: top;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+
+/* Services */
+
+.ritz .waffle .service {
+    border-bottom: 1px SOLID #aaaaaa;
+    border-right: 1px SOLID #aaaaaa;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    -webkit-text-decoration-skip: none;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+
+/* Descriptions */
+
+.ritz .waffle .description {
+    border-bottom: 1px SOLID #aaaaaa;
+    border-right: 1px SOLID #aaaaaa;
+    text-align: left;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+
+/* Header */
+.ritz .waffle .s1 {
+    background-color: #ff9900;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+/* Empty cell */
+.ritz .waffle .s2 {
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 16pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+/* Empty cell */
+.ritz .waffle .s6 {
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+/* Empty cell (header) */
+.ritz .waffle .s0 {
+    background-color: #ff9900;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 14pt;
+    vertical-align: top;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+}
+
+th, td {
+  padding: 10px !important;
+}
+
+@media print {
+    * {
+        overflow: visible !important;
+    }
+    table {
+        page-break-after:always;
+    }
+    body {
+        margin: 0;
+    }
+
+}
+
+</style>
+<div class="ritz grid-container" dir="ltr">
+    <table class="waffle no-grid">
+        <thead>
+            <tr style="visibility: hidden;">
+                <th class="row-header freezebar-origin-ltr"></th>
+                <th id="734979953C0" style="width:18px;" class="column-headers-background">A</th>
+                <th id="734979953C4" style="width:195px;" class="column-headers-background">E</th>
+                <th id="734979953C5" style="width:698px;" class="column-headers-background">F</th>
+                <th id="734979953C6" style="width:61px;" class="column-headers-background">G</th>
+            </tr>
+            <tr>
+                <th colspan="5" class="column-headers-background header">
+                    <h2>AWS SAA-C03 Cheat Sheet</h2>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="734979953R0" class="row-headers-background">
+                    <div class="row-header-wrapper">0</div>
+                </th>
+                <td class="s0"></td>
+                <td class="s1" dir="ltr">Service</td>
+                <td class="s1" dir="ltr">Description</td>
+                <td class="s2"></td>
+            </tr>
+            <tr>
+                <th id="734979953R1" class="row-headers-background">
+                    <div class="row-header-wrapper">1</div>
+                </th>
+                <td class="category s3" rowspan="11">Analytics</td>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/athena">Amazon Athena</a></td>
+                <td class="description s3">Amazon Athena is a serverless, interactive analytics service. Point to your data lake in Amazon S3, define the schema, and start querying with standard SQL. Removes need for complex ETL jobs to prepare data for analysis. Out of the box integrations with AWS Glue Data Catalog.  <br>
+                </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R2" class="row-headers-background">
+                    <div class="row-header-wrapper">2</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/data-exchange">AWS Data Exchange</a></td>
+                <td class="description s3" dir="ltr">Data marketplace in the cloud, including many third-party data sets.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R3" class="row-headers-background">
+                    <div class="row-header-wrapper">3</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/datapipeline/">AWS Data Pipeline</a></td>
+                <td class="description s3">Automate data movement and transformation. AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it’s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R4" class="row-headers-background">
+                    <div class="row-header-wrapper">4</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/emr">Amazon EMR</a></td>
+                <td class="description s3">Big data processing - cloud solution for petabyte-scale data processing, interactive analytics, and machine learning.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R5" class="row-headers-background">
+                    <div class="row-header-wrapper">5</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/glue">AWS Glue</a></td>
+                <td class="description s3">AWS Glue - Extract, Transform, Load (ETL). AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R6" class="row-headers-background">
+                    <div class="row-header-wrapper">6</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/kinesis">Amazon Kinesis</a></td>
+                <td class="description s3">Amazon Kinesis (Real time analytics) cost-effectively processes and analyzes streaming data at any scale as a fully managed service. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R7" class="row-headers-background">
+                    <div class="row-header-wrapper">7</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/lake-formation">AWS Lake Formation</a></td>
+                <td class="description s3">Build, manage, and secure data lakes easily for wide-ranging analytics.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R8" class="row-headers-background">
+                    <div class="row-header-wrapper">8</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/msk">Amazon MSK</a></td>
+                <td class="description s3">Amazon MSK (Amazon Managed Streaming for Apache Kafka) provides real time analytics of streaming data.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R9" class="row-headers-background">
+                    <div class="row-header-wrapper">9</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch Service (previously Amazon Elasticsearch Service)</a></td>
+                <td class="description s3">Amazon OpenSearch Service (Log and search analytics) makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R10" class="row-headers-background">
+                    <div class="row-header-wrapper">10</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/quicksight">Amazon QuickSight</a></td>
+                <td class="description s3">Build visualizations and deliver insights, interactive dashboards, reports, data exploration.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R11" class="row-headers-background">
+                    <div class="row-header-wrapper">11</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/redshift">Amazon Redshift</a></td>
+                <td class="description s3">Data Warehouse tool which uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R12" class="row-headers-background">
+                    <div class="row-header-wrapper">12</div>
+                </th>
+                <td class="category s8" rowspan="7">Application Integration</td>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/appflow">Amazon AppFlow</a></td>
+                <td class="description s8">Automate bi-directional data flows between SaaS applications and AWS services in just a few clicks. Supports data preparation with transformations, partitioning, and aggregation.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R13" class="row-headers-background">
+                    <div class="row-header-wrapper">13</div>
+                </th>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/appsync">AWS AppSync</a></td>
+                <td class="description s8">AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data.
+                </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R14" class="row-headers-background">
+                    <div class="row-header-wrapper">14</div>
+                </th>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/eventbridge/">Amazon EventBridge (CloudWatch Events)</a></td>
+                <td class="description s8" dir="ltr">Easily build loosely coupled, event-driven architectures to help you deploy new features faster. Create point-to-point integrations between event producers and consumers without needing to write custom code or managing and provisioning servers. Connect AWS services, software-as-a-service (SaaS) applications, and custom applications as event producers to launch workflows.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R15" class="row-headers-background">
+                    <div class="row-header-wrapper">15</div>
+                </th>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/amazon-mq/">Amazon MQ</a></td>
+                <td class="description s8">Amazon MQ is a managed message broker service which allows software systems across different programming languages and platforms to communicate and exchange information.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R16" class="row-headers-background">
+                    <div class="row-header-wrapper">16</div>
+                </th>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/sns">Amazon Simple Notification Service (Amazon SNS)</a></td>
+                <td class="description s8">Amazon SNS sends notifications two ways, A2A and A2P. A2A provides high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. These applications include Amazon Simple Queue Service (SQS), Amazon Kinesis Data Firehose, AWS Lambda, and other HTTPS endpoints. A2P functionality lets you send messages to your customers with SMS texts, push notifications, and email. </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R17" class="row-headers-background">
+                    <div class="row-header-wrapper">17</div>
+                </th>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/sqs">Amazon Simple Queue Service (Amazon SQS)</a></td>
+                <td class="description s8">Amazon SQS lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R18" class="row-headers-background">
+                    <div class="row-header-wrapper">18</div>
+                </th>
+                <td class="service s8"><a target="_blank" href="https://aws.amazon.com/step-functions">AWS Step Functions</a></td>
+                <td class="description s8">AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R19" class="row-headers-background">
+                    <div class="row-header-wrapper">19</div>
+                </th>
+                <td class="category s11" rowspan="4">AWS Cost Management</td>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/aws-cost-management/aws-budgets/">AWS Budgets</a></td>
+                <td class="description s11">AWS Budgets enables setting custom budgets to track costs and usage, as well as alerts that may trigger SNS notifications when thresholds are exceeded.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R20" class="row-headers-background">
+                    <div class="row-header-wrapper">20</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/">AWS Cost and Usage Report (AWS CUR)</a></td>
+                <td class="description s11">With AWS CUR, you can review, itemize, and organize the most comprehensive cost and usage data for your account.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R21" class="row-headers-background">
+                    <div class="row-header-wrapper">21</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/aws-cost-management/aws-cost-explorer/">AWS Cost Explorer</a></td>
+                <td class="description s11" dir="ltr">AWS Cost Explorer lets you visualize, understand, and manage your AWS costs and usage over time.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R22" class="row-headers-background">
+                    <div class="row-header-wrapper">22</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/savingsplans">Savings Plans</a></td>
+                <td class="description s11">Savings Plans is a flexible pricing model that can help you reduce your bill by up to 72% compared to On-Demand prices, in exchange for a one- or three-year hourly spend commitment. AWS offers three types of Savings Plans: Compute Savings Plans, EC2 Instance Savings Plans, and Amazon SageMaker Savings Plans.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R23" class="row-headers-background">
+                    <div class="row-header-wrapper">23</div>
+                </th>
+                <td class="category s14" rowspan="8">Compute</td>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/batch">AWS Batch</a></td>
+                <td class="description s14">AWS Batch supports running hundreds of thousands of batch and ML computing jobs while optimizing compute resources.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R24" class="row-headers-background">
+                    <div class="row-header-wrapper">24</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/ec2">Amazon Elastic Compute Cloud (AWS EC2)</a></td>
+                <td class="description s14" dir="ltr">Amazon EC2 offers the broadest and deepest compute platform, with over 600 instances and a choice of the latest processor, storage, networking, operating system and purchase model.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R25" class="row-headers-background">
+                    <div class="row-header-wrapper">25</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/ec2/autoscaling/">Amazon EC2 Auto Scaling</a></td>
+                <td class="description s14" dir="ltr">Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances using scaling policies that you define.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R26" class="row-headers-background">
+                    <div class="row-header-wrapper">26</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/elasticbeanstalk">AWS Elastic Beanstalk</a></td>
+                <td class="description s14" dir="ltr">AWS Elastic Beanstalk deploys web applications. Basically a set of predefined configuration templates for AWS Cloudformation.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R27" class="row-headers-background">
+                    <div class="row-header-wrapper">27</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/outposts">AWS Outposts</a></td>
+                <td class="description s14">Extend AWS compute, networking, security, and other services on premises for low latency, local data processing, and data residency needs.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R28" class="row-headers-background">
+                    <div class="row-header-wrapper">28</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/serverless/serverlessrepo/">AWS Serverless Application Repository</a></td>
+                <td class="description s14" dir="ltr">The AWS Serverless Application Repository is a managed repository for third-party shared serverless applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R29" class="row-headers-background">
+                    <div class="row-header-wrapper">29</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/vmware/">VMware Cloud on AWS</a></td>
+                <td class="description s14" dir="ltr">VMware Cloud is a managed service that combines compute, network and storage capabilities in a fully supported, ready-to-run service.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R30" class="row-headers-background">
+                    <div class="row-header-wrapper">30</div>
+                </th>
+                <td class="service s14"><a target="_blank" href="https://aws.amazon.com/wavelength">AWS Wavelength</a></td>
+                <td class="description s14" dir="ltr">AWS Wavelength embeds AWS compute and storage services within 5G networks, providing mobile edge computing infrastructure for developing, deploying, and scaling ultra-low-latency applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R31" class="row-headers-background">
+                    <div class="row-header-wrapper">31</div>
+                </th>
+                <td class="category s17" rowspan="6">Containers</td>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ecr">Amazon Elastic Container Registry (Amazon ECR)</a></td>
+                <td class="description s17">Amazon Amazon ECR is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere. ECR provides the repository for all code which has been written and packaged as Docker images.
+                </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R32" class="row-headers-background">
+                    <div class="row-header-wrapper">32</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ecs">Amazon Elastic Container Service (Amazon ECS)</a></td>
+                <td class="description s17" dir="ltr">Amazon ECS is a fully managed container orchestration service that simplifies the deployment, management, and scaling of containerized applications. Describe your application and the resources required, and Amazon ECS will launch, monitor, and scale your application across flexible compute options with automatic integrations to other supporting AWS services that your application needs. Perform system operations such as creating custom scaling and capacity rules, and observe and query data from application logs and telemetry.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R33" class="row-headers-background">
+                    <div class="row-header-wrapper">33</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ecs/anywhere/">Amazon ECS Anywhere</a></td>
+                <td class="description s17" dir="ltr">Amazon Elastic Container Service (ECS) Anywhere is a feature of Amazon ECS that lets you run and manage container workloads on your infrastructure. This feature helps you meet compliance requirements and scale your business without sacrificing your on-premises investments.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R34" class="row-headers-background">
+                    <div class="row-header-wrapper">34</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/eks">Amazon Elastic Kubernetes Service (Amazon EKS)</a></td>
+                <td class="description s17">Amazon EKS is a managed Kubernetes service designed to run in the  cloud and in on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. With Amazon EKS, you can take advantage of all the performance, scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking and security services. On-premises, EKS provides a consistent, fully-supported Kubernetes solution with integrated tooling and simple deployment to AWS Outposts, virtual machines, or bare metal servers.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R35" class="row-headers-background">
+                    <div class="row-header-wrapper">35</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/eks/eks-anywhere/">Amazon EKS Anywhere</a></td>
+                <td class="description s17" dir="ltr">Amazon EKS Anywhere lets you create and operate Kubernetes clusters on your own infrastructure. Amazon EKS Anywhere builds on the strengths of Amazon EKS Distro and provides open-source software that’s up to date and patched so you can have an on-premises Kubernetes environment that’s more reliable than a self-managed Kubernetes offering.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R36" class="row-headers-background">
+                    <div class="row-header-wrapper">36</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/eks/eks-distro/">Amazon EKS Distro</a></td>
+                <td class="description s17" dir="ltr">Amazon Elastic Kubernetes Service (EKS) uses Amazon EKS Distro, a Kubernetes distribution built and maintained by AWS. Amazon EKS Distro makes it easier to create reliable and secure clusters.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R37" class="row-headers-background">
+                    <div class="row-header-wrapper">37</div>
+                </th>
+                <td class="category s20" rowspan="11">Database</td>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/aurora">Amazon Aurora</a></td>
+                <td class="description s20" dir="ltr">Unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility. Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R38" class="row-headers-background">
+                    <div class="row-header-wrapper">38</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/serverless">Amazon Aurora Serverless</a></td>
+                <td class="description s20" dir="ltr">Amazon Aurora Serverless is an on-demand, autoscaling configuration for Amazon Aurora. It automatically starts up, shuts down, and scales capacity up or down based on your application&#39;s needs. You can run your database in the cloud without managing any database instances. You can also use Aurora Serverless v2 instances along with provisioned instances in your existing or new database clusters.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R39" class="row-headers-background">
+                    <div class="row-header-wrapper">39</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/documentdb">Amazon DocumentDB</a></td>
+                <td class="description s20">Amazon DocumentDB (with MongoDB compatibility) is a fully managed native JSON document database that makes it easy and cost effective to operate critical document workloads at virtually any scale without managing infrastructure. Amazon DocumentDB simplifies your architecture by providing built-in security best practices, continuous backups, and native integrations with other AWS services.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R40" class="row-headers-background">
+                    <div class="row-header-wrapper">40</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/dynamodb">Amazon DynamoDB</a></td>
+                <td class="description s20" dir="ltr">Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-region replication, in-memory caching, and data import and export tools.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R41" class="row-headers-background">
+                    <div class="row-header-wrapper">41</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/elasticache">Amazon ElastiCache</a></td>
+                <td class="description s20">Amazon ElastiCache is a fully managed, Redis- and MemcacheD-compatible service delivering real-time, cost-optimized performance for modern applications. ElastiCache scales to hundreds of millions of operations per second with microsecond response time, and offers enterprise-grade security and reliability.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R42" class="row-headers-background">
+                    <div class="row-header-wrapper">42</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/keyspaces">Amazon Keyspaces</a></td>
+                <td class="description s20">Amazon Keyspaces for Apache Cassandra enables you to use the Cassandra Query Language (CQL) API code, Cassandra drivers, and developer tools that you already use. Updating applications to use Amazon Keyspaces is as easy as changing the Cassandra hostname to the Amazon Keyspaces service endpoint.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R43" class="row-headers-background">
+                    <div class="row-header-wrapper">43</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/neptune">Amazon Neptune</a></td>
+                <td class="description s20">Amazon Neptune is a fully managed database service built for the cloud that makes it easier to build and run graph applications. Neptune provides built-in security, continuous backups, serverless compute, and integrations with other AWS services.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R44" class="row-headers-background">
+                    <div class="row-header-wrapper">44</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/qldb">Amazon Quantum Ledger Database (Amazon QLDB)</a></td>
+                <td class="description s20">Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R45" class="row-headers-background">
+                    <div class="row-header-wrapper">45</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/rds">Amazon RDS</a></td>
+                <td class="description s20">Amazon RDS (Relational Database Service) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Choose from seven popular engines — Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server — and deploy on-premises with Amazon RDS on AWS Outposts.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R46" class="row-headers-background">
+                    <div class="row-header-wrapper">46</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/redshift">Amazon Redshift</a></td>
+                <td class="description s20">Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R47" class="row-headers-background">
+                    <div class="row-header-wrapper">47</div>
+                </th>
+                <td class="service s20"><a target="_blank" href="https://aws.amazon.com/timestream">Amazon Timestream</a></td>
+                <td class="description s20">Amazon Timestream is a fast, scalable, and serverless time-series database service that makes it easier to store and analyze trillions of events per day up to 1,000 times faster. Amazon Timestream automatically scales up or down to adjust capacity and performance, so that you don’t have to manage the underlying infrastructure.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R48" class="row-headers-background">
+                    <div class="row-header-wrapper">48</div>
+                </th>
+                <td class="category s23" rowspan="5">Developer Tools</td>
+                <td class="service s23"><a target="_blank" href="https://aws.amazon.com/x-ray">AWS X-Ray</a></td>
+                <td class="description s23">AWS X-Ray provides a complete view of requests as they travel through your application and filters visual data across payloads, functions, traces, services, APIs, and more with no-code and low-code motions.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R49" class="row-headers-background">
+                    <div class="row-header-wrapper">49</div>
+                </th>
+                <td class="service s23"><a target="_blank" href="https://aws.amazon.com/amplify">AWS Amplify</a></td>
+                <td class="description s23">AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R50" class="row-headers-background">
+                    <div class="row-header-wrapper">50</div>
+                </th>
+                <td class="service s23"><a target="_blank" href="https://aws.amazon.com/api-gateway">Amazon API Gateway</a></td>
+                <td class="description s23">Build RESTful APIs optimized for serverless workloads and HTTP backends using HTTP APIs. HTTP APIs are the best choice for building APIs that only require API proxy functionality. If your APIs require API proxy functionality and API management features in a single solution, API Gateway also offers REST APIs.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R51" class="row-headers-background">
+                    <div class="row-header-wrapper">51</div>
+                </th>
+                <td class="service s23"><a target="_blank" href="https://aws.amazon.com/device-farm">AWS Device Farm</a></td>
+                <td class="description s23">Run your Selenium tests in parallel on multiple hosted versions of Chrome, Internet Explorer and Firefox.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R52" class="row-headers-background">
+                    <div class="row-header-wrapper">52</div>
+                </th>
+                <td class="service s23"><a target="_blank" href="https://aws.amazon.com/pinpoint">Amazon Pinpoint</a></td>
+                <td class="description s23">Amazon Pinpoint offers marketers and developers one customizable tool to deliver customer communications across channels, segments, and campaigns at scale.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R53" class="row-headers-background">
+                    <div class="row-header-wrapper">53</div>
+                </th>
+                <td class="category s26" rowspan="11">Machine Learning</td>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/comprehend">Amazon Comprehend</a></td>
+                <td class="description s26">Amazon Comprehend is a natural-language processing (NLP) service that uses machine learning to uncover valuable insights and connections in text.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R54" class="row-headers-background">
+                    <div class="row-header-wrapper">54</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/forecast">Amazon Forecast</a></td>
+                <td class="description s26">Amazon Forecast is a time-series forecasting service based on machine learning (ML) and built for business metrics analysis.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R55" class="row-headers-background">
+                    <div class="row-header-wrapper">55</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/fraud-detector">Amazon Fraud Detector</a></td>
+                <td class="description s26">Amazon Fraud Detector is a fully managed service to identify potentially fraudulent online activities.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R56" class="row-headers-background">
+                    <div class="row-header-wrapper">56</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/kendra">Amazon Kendra</a></td>
+                <td class="description s26">Find accurate information faster. Amazon Kendra is an intelligent enterprise search service that helps you search across different content repositories with built-in connectors.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R57" class="row-headers-background">
+                    <div class="row-header-wrapper">57</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/lex">Amazon Lex</a></td>
+                <td class="description s26">Build chatbots and virtual agents. Amazon Lex is a fully managed artificial intelligence (AI) service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R58" class="row-headers-background">
+                    <div class="row-header-wrapper">58</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/polly">Amazon Polly</a></td>
+                <td class="description s26">Give your apps a voice. Amazon Polly uses deep learning technologies to synthesize natural-sounding human speech, and to convert text to speech. Features dozens of  voices and a broad set of languages.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R59" class="row-headers-background">
+                    <div class="row-header-wrapper">59</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/rekognition">Amazon Rekognition</a></td>
+                <td class="description s26">Analyze images and videos. Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R60" class="row-headers-background">
+                    <div class="row-header-wrapper">60</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/sagemaker">Amazon SageMaker</a></td>
+                <td class="description s26">Amazon SageMaker is a fully managed service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R61" class="row-headers-background">
+                    <div class="row-header-wrapper">61</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/textract">Amazon Textract</a></td>
+                <td class="description s26" dir="ltr">Extract text and data. Amazon Textract is a machine learning service that automatically extracts text, handwriting, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R62" class="row-headers-background">
+                    <div class="row-header-wrapper">62</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/transcribe">Amazon Transcribe</a></td>
+                <td class="description s26">Automate speech recognition. Automatically convert speech to text, and extract key business insights from customer calls, video files, clinical conversations, and more.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R63" class="row-headers-background">
+                    <div class="row-header-wrapper">63</div>
+                </th>
+                <td class="service s26"><a target="_blank" href="https://aws.amazon.com/translate">Amazon Translate</a></td>
+                <td class="description s26">Engage audiences in every language. Amazon Translate is a neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R64" class="row-headers-background">
+                    <div class="row-header-wrapper">64</div>
+                </th>
+                <td class="category s29" rowspan="19">Management and Governance</td>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/autoscaling">AWS Auto Scaling</a></td>
+                <td class="description s29" dir="ltr">AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R65" class="row-headers-background">
+                    <div class="row-header-wrapper">65</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/cloudformation">AWS CloudFormation</a></td>
+                <td class="description s29">AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R66" class="row-headers-background">
+                    <div class="row-header-wrapper">66</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/cloudtrail">AWS CloudTrail</a></td>
+                <td class="description s29">AWS CloudTrail monitors and records account activity across your AWS infrastructure, giving you control over storage, analysis, and remediation actions.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R67" class="row-headers-background">
+                    <div class="row-header-wrapper">67</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/cloudwatch">Amazon CloudWatch</a></td>
+                <td class="description s29">Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R68" class="row-headers-background">
+                    <div class="row-header-wrapper">68</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/cli">AWS Command Line Interface (AWS CLI)</a></td>
+                <td class="description s29" dir="ltr">The AWS CLI is a unified tool to manage your AWS services and automate them through scripts.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R69" class="row-headers-background">
+                    <div class="row-header-wrapper">69</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/compute-optimizer">AWS Compute Optimizer</a></td>
+                <td class="description s29">AWS Compute Optimizer helps avoid overprovisioning and underprovisioning four types of AWS resources based on your utilization data: Amazon EC2 instance types, Amazon EBS volumes, Amazon ECS services on AWS Fargate and AWS Lambda functions.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R70" class="row-headers-background">
+                    <div class="row-header-wrapper">70</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/config">AWS Config</a></td>
+                <td class="description s29">AWS Config continually assesses, audits, and evaluates the configurations and relationships of your resources on AWS, on premises, and on other clouds.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R71" class="row-headers-background">
+                    <div class="row-header-wrapper">71</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/controltower">AWS Control Tower</a></td>
+                <td class="description s29">AWS Control Tower simplifies AWS experiences by orchestrating multiple AWS services on your behalf while maintaining the security and compliance needs of your organization.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R72" class="row-headers-background">
+                    <div class="row-header-wrapper">72</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/license-manager">AWS License Manager</a></td>
+                <td class="description s29">AWS License Manager makes it easier for you to manage your software licenses from vendors, such as Microsoft, SAP, Oracle, and IBM, across AWS and your on-premises environments.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R73" class="row-headers-background">
+                    <div class="row-header-wrapper">73</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/grafana">Amazon Managed Grafana</a></td>
+                <td class="description s29">Amazon Managed Grafana is a fully managed service for Grafana analytics platform that enables you to query, visualize, and alert on your metrics, logs, and traces.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R74" class="row-headers-background">
+                    <div class="row-header-wrapper">74</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/prometheus">Amazon Managed Service for Prometheus</a></td>
+                <td class="description s29">Amazon Managed Service for Prometheus is a Prometheus-compatible service that monitors and provides alerts on containerized applications and infrastructure at scale. The service is integrated with Amazon Elastic Kubernetes Service (EKS), Amazon Elastic Container Service (ECS), and AWS Distro for OpenTelemetry.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R75" class="row-headers-background">
+                    <div class="row-header-wrapper">75</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/console">AWS Management Console</a></td>
+                <td class="description s29" dir="ltr">Everything you need to access and manage the AWS Cloud in one web interface</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R76" class="row-headers-background">
+                    <div class="row-header-wrapper">76</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/organizations">AWS Organizations</a></td>
+                <td class="description s29">AWS Organizations lets you create new AWS accounts at no additional charge. With accounts in an organization, you can easily allocate resources, group accounts, and apply governance policies to accounts or groups.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R77" class="row-headers-background">
+                    <div class="row-header-wrapper">77</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/premiumsupport/technology/aws-health-dashboard/">AWS Personal Health Dashboard</a></td>
+                <td class="description s29">The AWS Health Dashboard provides a personalized view of the AWS service status of your applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R78" class="row-headers-background">
+                    <div class="row-header-wrapper">78</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/proton">AWS Proton</a></td>
+                <td class="description s29">AWS Proton is a deployment workflow tool (CI/CD) for modern applications that helps platform and DevOps engineers achieve organizational agility.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R79" class="row-headers-background">
+                    <div class="row-header-wrapper">79</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/servicecatalog">AWS Service Catalog</a></td>
+                <td class="description s29">AWS Service Catalog: centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC) templates, written in CloudFormation or Terraform. With AWS Service Catalog, you can meet your compliance requirements while making sure your customers can quickly deploy the cloud resources they need.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R80" class="row-headers-background">
+                    <div class="row-header-wrapper">80</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/systems-manager">AWS Systems Manager</a></td>
+                <td class="description s29">AWS Systems Manager is a secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R81" class="row-headers-background">
+                    <div class="row-header-wrapper">81</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/trustedadvisor">AWS Trusted Advisor</a></td>
+                <td class="description s29">Trusted Advisor analyzes your AWS environment and recommends actions to follow best practices.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R82" class="row-headers-background">
+                    <div class="row-header-wrapper">82</div>
+                </th>
+                <td class="service s29"><a target="_blank" href="https://aws.amazon.com/well-architected-tool">AWS Well-Architected Tool</a></td>
+                <td class="description s29">The AWS Well-Architected Tool is designed to help you review the state of your applications and workloads against architectural best practices, identify opportunities for improvement, and track progress over time.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R83" class="row-headers-background">
+                    <div class="row-header-wrapper">83</div>
+                </th>
+                <td class="category s32" rowspan="2">Media Services</td>
+                <td class="service s32"><a target="_blank" href="https://aws.amazon.com/elastictranscoder">Amazon Elastic Transcoder -&gt; MediaConvert (New)</a></td>
+                <td class="description s32" dir="ltr">Amazon Elastic Transcoder is media transcoding in the cloud.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R84" class="row-headers-background">
+                    <div class="row-header-wrapper">84</div>
+                </th>
+                <td class="service s32"><a target="_blank" href="https://aws.amazon.com/kinesis">Amazon Kinesis Video Streams</a></td>
+                <td class="description s32">Collect, process, and analyze video and data streams in real time - at any scale, as a fully managed service. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R85" class="row-headers-background">
+                    <div class="row-header-wrapper">85</div>
+                </th>
+                <td class="category s3" rowspan="8">Migration and Transfer</td>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/application-discovery/">AWS Application Discovery Service</a></td>
+                <td class="description s3">AWS Application Discovery Service helps you plan cloud migration projects by gathering information about your on-premises data centers.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R86" class="row-headers-background">
+                    <div class="row-header-wrapper">86</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/application-migration-service/">AWS Application Migration Service (CloudEndure Migration)</a></td>
+                <td class="description s3" dir="ltr">Application Migration Service is the next generation of CloudEndure Migration. It minimizes time-intensive, error-prone manual processes by automating the conversion of your source servers to run natively on AWS. It also simplifies application modernization with built-in and custom optimization options.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R87" class="row-headers-background">
+                    <div class="row-header-wrapper">87</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/dms">AWS Database Migration Service (AWS DMS)</a></td>
+                <td class="description s3">AWS DMS is a managed migration and replication service for databases and analytics workloads. AWS DMS supports migration between 20-plus database and analytics engines, such as Oracle to Amazon Aurora MySQL-Compatible Edition, MySQL to Amazon Relational Database (RDS) for MySQL, Microsoft SQL Server to Amazon Aurora PostgreSQL-Compatible Edition, MongoDB to Amazon DocumentDB (with MongoDB compatibility), Oracle to Amazon Redshift, and Amazon Simple Storage Service (S3).</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R88" class="row-headers-background">
+                    <div class="row-header-wrapper">88</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/datasync">AWS DataSync</a></td>
+                <td class="description s3" dir="ltr">AWS DataSync is a secure, online service that automates and accelerates moving data between on premises and AWS Storage services. DataSync can copy data between Network File System (NFS) shares, Server Message Block (SMB) shares, Hadoop Distributed File Systems (HDFS), self-managed object storage, AWS Snowcone, Amazon Simple Storage Service (Amazon S3) buckets, Amazon Elastic File System (Amazon EFS) file systems, Amazon FSx for Windows File Server file systems, Amazon FSx for Lustre file systems, Amazon FSz for OpenZFS file systems, and Amazon FSx for NetApp ONTAP file systems.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R89" class="row-headers-background">
+                    <div class="row-header-wrapper">89</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/migration-hub">AWS Migration Hub</a></td>
+                <td class="description s3">AWS Migration Hub provides a central location to collect server and application inventory data for the assessment, planning, and tracking of migrations to AWS. Migration Hub can also help accelerate application modernization following migration.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R90" class="row-headers-background">
+                    <div class="row-header-wrapper">90</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/free/migration/">AWS Server Migration Service (AWS SMS)</a></td>
+                <td class="description s3">Migrate any workload – applications, websites, databases, storage, physical or virtual servers – and even entire data centers from an on-premises environment, hosting facility, or other public cloud to AWS.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R91" class="row-headers-background">
+                    <div class="row-header-wrapper">91</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/snow">AWS Snow Family</a></td>
+                <td class="description s3">Snowcone, Snowball and Snowmobile are purpose-built devices to cost-effectively move petabytes of data, offline. Lease a Snow device to move your data to the cloud.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R92" class="row-headers-background">
+                    <div class="row-header-wrapper">92</div>
+                </th>
+                <td class="service s3"><a target="_blank" href="https://aws.amazon.com/transfer">AWS Transfer Family</a></td>
+                <td class="description s3">AWS Transfer Family securely scales your recurring business-to-business file transfers to AWS Storage services using SFTP, FTPS, FTP, and AS2 protocols.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R93" class="row-headers-background">
+                    <div class="row-header-wrapper">93</div>
+                </th>
+                <td class="category s11" rowspan="9">Networking and Content Delivery</td>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/cloudfront">Amazon CloudFront</a></td>
+                <td class="description s11">Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R94" class="row-headers-background">
+                    <div class="row-header-wrapper">94</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/connect">AWS Direct Connect</a></td>
+                <td class="description s11">Link on-premises and AWS networks, extend your existing network. Use SiteLink to send data between your locations.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R95" class="row-headers-background">
+                    <div class="row-header-wrapper">95</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/elasticloadbalancing/">Elastic Load Balancing (ELB)</a></td>
+                <td class="description s11">Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs).
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/OSI_model">OSI Layers</a>
+                    <ul>
+                        <li>Application Load Balancer [Layer 7] (Application, e g http)</li>
+                        <li>Network Load Balancer [Layer 4] (Transport)</li>
+                        <li>Gateway Load Balancer [Layer 3-4] (Network, Transport)</li>
+                    </ul>
+                </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R96" class="row-headers-background">
+                    <div class="row-header-wrapper">96</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/global-accelerator">AWS Global Accelerator</a></td>
+                <td class="description s11">AWS Global Accelerator is a networking service that helps improve the availability, performance, and security of public AWS applications. Global Accelerator provides two global static public IPs that act as a fixed entry point to application endpoints, such as Application Load Balancers, Network Load Balancers, Amazon Elastic Compute Cloud (EC2) instances, and elastic IPs.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R97" class="row-headers-background">
+                    <div class="row-header-wrapper">97</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/privatelink">AWS PrivateLink</a></td>
+                <td class="description s11">AWS PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet. Interface VPC endpoints, powered by PrivateLink, connect you to services hosted by AWS Partners and supported solutions available in AWS Marketplace.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R98" class="row-headers-background">
+                    <div class="row-header-wrapper">98</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/route53">Amazon Route 53</a></td>
+                <td class="description s11">Amazon Route 53 is a highly available and scalable DNS (Domain Name System) service. Route 53 connects user requests to internet applications running on AWS or on-premises.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R99" class="row-headers-background">
+                    <div class="row-header-wrapper">99</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/transit-gateway">AWS Transit Gateway</a></td>
+                <td class="description s11">AWS Transit Gateway connects Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub - like a highly scalable cloud router.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R100" class="row-headers-background">
+                    <div class="row-header-wrapper">100</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/vpc">Virtual Private Cloud (Amazon VPC)</a></td>
+                <td class="description s11" dir="ltr">Amazon VPC gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Secure and monitor connections, screen traffic, and restrict instance access inside your virtual network. VPCs can communicate with each other across accounts, Availability Zones, or AWS Regions.
+                </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R101" class="row-headers-background">
+                    <div class="row-header-wrapper">101</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/vpn">AWS VPN</a></td>
+                <td class="description s11" dir="ltr">AWS Client VPN is used by your remote workforce to securely access resources both on AWS and within your on-premises networks. AWS Site-to-Site VPN creates encrypted connections between your locations (such as data centers and remote offices) and your AWS resources.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R102" class="row-headers-background">
+                    <div class="row-header-wrapper">102</div>
+                </th>
+                <td class="category s11" rowspan="20">Security Identity and Compliance</td>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/artifact">AWS Artifact</a></td>
+                <td class="description s11">AWS Artifact is a central resource for compliance-related information. It provides on-demand access to security and compliance reports from AWS and ISVs who sell their products on AWS Marketplace.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R103" class="row-headers-background">
+                    <div class="row-header-wrapper">103</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/audit-manager">AWS Audit Manager</a></td>
+                <td class="description s11">Continually audit your AWS usage to simplify risk and compliance assessment. Use Audit Manager to map your compliance requirements to AWS usage data with prebuilt and custom frameworks and automated evidence collection.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R104" class="row-headers-background">
+                    <div class="row-header-wrapper">104</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/acm">AWS Certificate Manager ACM</a></td>
+                <td class="description s11">Use AWS Certificate Manager (ACM) to provision, manage, and deploy public and private SSL/TLS certificates for use with AWS services and any internal connected resources.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R105" class="row-headers-background">
+                    <div class="row-header-wrapper">105</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/cloudhsm">AWS CloudHSM</a></td>
+                <td class="description s11">AWS CloudHSM lets you manage and access your keys on FIPS-validated hardware, protected with customer-owned, single-tenant HSM instances that run in your own Virtual Private Cloud (VPC). AWS CloudHSM helps you meet corporate, contractual, and regulatory compliance requirements for data security.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R106" class="row-headers-background">
+                    <div class="row-header-wrapper">106</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/cognito">Amazon Cognito</a></td>
+                <td class="description s11">Amazon Cognito provides a scalable identity store which can add user sign-up and sign-in features and control access to web and mobile applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R107" class="row-headers-background">
+                    <div class="row-header-wrapper">107</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/detective">Amazon Detective</a></td>
+                <td class="description s11">Amazon Detective simplifies the investigative process and helps security teams conduct faster and more effective investigations.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R108" class="row-headers-background">
+                    <div class="row-header-wrapper">108</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/directoryservice">AWS Directory Service</a></td>
+                <td class="description s11">AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, activates your directory-aware workloads and AWS resources to use managed AD on AWS.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R109" class="row-headers-background">
+                    <div class="row-header-wrapper">109</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/firewall-manager">AWS Firewall Manager</a></td>
+                <td class="description s11">AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R110" class="row-headers-background">
+                    <div class="row-header-wrapper">110</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/guardduty">Amazon GuardDuty</a></td>
+                <td class="description s11">Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation. Expose threats quickly using anomaly detection, ML, behavioral modeling, and threat intelligence feeds from AWS and leading third parties.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R111" class="row-headers-background">
+                    <div class="row-header-wrapper">111</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/iam">AWS Identity and Access Management IAM</a></td>
+                <td class="description s11">With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS, centrally manage fine-grained permissions, and analyze access to refine permissions across AWS.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R112" class="row-headers-background">
+                    <div class="row-header-wrapper">112</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/inspector">Amazon Inspector</a></td>
+                <td class="description s11">Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R113" class="row-headers-background">
+                    <div class="row-header-wrapper">113</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/kms">AWS Key Management Service (AWS KMS)</a></td>
+                <td class="description s11" dir="ltr">AWS KMS lets you create, manage, and control cryptographic keys across your applications and AWS services.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R114" class="row-headers-background">
+                    <div class="row-header-wrapper">114</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/macie">Amazon Macie</a></td>
+                <td class="description s11">Amazon Macie is a data security service that uses machine learning and pattern matching to discover and help protect your sensitive data.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R115" class="row-headers-background">
+                    <div class="row-header-wrapper">114</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/network-firewall">AWS Network Firewall</a></td>
+                <td class="description s11">With AWS Network Firewall, you can define firewall rules that provide fine-grained control over network traffic.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R116" class="row-headers-background">
+                    <div class="row-header-wrapper">116</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/ram">AWS Resource Access Manager (AWS RAM)</a></td>
+                <td class="description s11">AWS RAM helps you securely share your resources across AWS accounts, within your organization or organizational units (OUs), and with IAM roles and users for supported resource types.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R117" class="row-headers-background">
+                    <div class="row-header-wrapper">117</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/secrets-manager">AWS Secrets Manager</a></td>
+                <td class="description s11">AWS Secrets Manager helps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycles.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R118" class="row-headers-background">
+                    <div class="row-header-wrapper">118</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/security-hub">AWS Security Hub</a></td>
+                <td class="description s11">AWS Security Hub is a cloud security posture management (CSPM) service that performs security best practice checks, aggregates alerts, and enables automated remediation.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R119" class="row-headers-background">
+                    <div class="row-header-wrapper">119</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/shield">AWS Shield</a></td>
+                <td class="description s11">AWS Shield is a managed DDoS protection service that safeguards applications running on AWS.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R120" class="row-headers-background">
+                    <div class="row-header-wrapper">120</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/single-sign-on">AWS IAM Identity Center</a></td>
+                <td class="description s11">AWS IAM Identity Center helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications. IAM Identity Center is the recommended approach for workforce authentication and authorization on AWS. Using IAM Identity Center, you can create and manage user identities in AWS, or connect your existing identity source, including Microsoft Active Directory, Okta, Ping Identity, JumpCloud, Google Workspace, and Azure Active Directory (Azure AD).</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R121" class="row-headers-background">
+                    <div class="row-header-wrapper">121</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/waf">AWS WAF</a></td>
+                <td class="description s11" dir="ltr">AWS WAF helps you protect against common web exploits like SQL injection and cross-site-scripting.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R122" class="row-headers-background">
+                    <div class="row-header-wrapper">122</div>
+                </th>
+                <td class="category s11" rowspan="3">Serverless</td>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/appsync">AWS AppSync</a></td>
+                <td class="description s11">AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data. </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R123" class="row-headers-background">
+                    <div class="row-header-wrapper">123</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/fargate">AWS Fargate</a></td>
+                <td class="description s11">AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS). Select any OCI-compliant container image, define memory and compute resources, and run the container with serverless compute. With multiple CPU architectures and operating systems supported, you can enjoy the benefits across a wide variety of applications.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R124" class="row-headers-background">
+                    <div class="row-header-wrapper">124</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/lambda">AWS Lambda</a></td>
+                <td class="description s11">AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R125" class="row-headers-background">
+                    <div class="row-header-wrapper">125</div>
+                </th>
+                <td class="category s17" rowspan="7">Storage</td>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/backup">AWS Backup</a></td>
+                <td class="description s17">AWS Backup is a cost-effective, fully managed, policy-based service that simplifies data protection at scale.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R126" class="row-headers-background">
+                    <div class="row-header-wrapper">126</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ebs">Amazon Elastic Block Store (Amazon EBS)</a></td>
+                <td class="description s17">Amazon EBS is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R127" class="row-headers-background">
+                    <div class="row-header-wrapper">127</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/efs">Amazon Elastic File System (Amazon EFS)</a></td>
+                <td class="description s17" dir="ltr">Amazon EFS automatically grows and shrinks as you add and remove files with no need for management or provisioning. Linux-compatible</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R128" class="row-headers-background">
+                    <div class="row-header-wrapper">128</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/fsx">Amazon FSx for all types</a></td>
+                <td class="description s17" dir="ltr">Scalable, feature-rich, high-performant file systems in the cloud. As a fully managed service, it handles hardware provisioning, patching, and backups. You can choose between four widely-used file systems: NetApp ONTAP, OpenZFS, Windows File Server, and Lustre.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R129" class="row-headers-background">
+                    <div class="row-header-wrapper">129</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/s3">Amazon S3</a></td>
+                <td class="description s17" dir="ltr">Amazon Simple Storage Service (Amazon S3) is an object storage service. Stores objects in resources called Buckets, which can be up to 5TB in size, but there are no total limits to the# of objects stored. Designed to provide 99.999999999% durability (11 nines) and up to 99.99% availability. </td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R130" class="row-headers-background">
+                    <div class="row-header-wrapper">130</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/glacier">Amazon S3 Glacier</a></td>
+                <td class="description s17" dir="ltr">The Amazon S3 Glacier storage classes are purpose-built for data archiving, providing you with the highest performance, most retrieval flexibility, and the lowest cost archive storage in the cloud. All S3 Glacier storage classes provide virtually unlimited scalability and are designed for 99.999999999% (11 nines) of data durability. The S3 Glacier storage classes deliver options for the fastest access to your archive data (milliseconds) and the lowest-cost archive storage in the cloud (12h retrieval).</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R131" class="row-headers-background">
+                    <div class="row-header-wrapper">131</div>
+                </th>
+                <td class="service s17"><a target="_blank" href="https://aws.amazon.com/storage-gateway">AWS Storage Gateway</a></td>
+                <td class="description s17">AWS Storage Gateway is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th colspan="5" class="column-headers-background header">
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id='embed_976351453' class='waffle-embedded-object-overlay' style='width: 53px; height: 27px; display: block;'><img src='resources/drawing0.png' style='display: block;' height='27' width='53'></div>
