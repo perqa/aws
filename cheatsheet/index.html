@@ -327,7 +327,7 @@ th, td {
                 </th>
                 <td class="category s8" rowspan="7">Application Integration</td>
                 <td class="service s8"><a target="_blank" href="https://aws.amazon.com/appflow">Amazon AppFlow</a></td>
-                <td class="description s8">Automate bi-directional data flows between SaaS applications and AWS services in just a few clicks. Supports data preparation with transformations, partitioning, and aggregation.</td>
+                <td class="description s8">Automate bi-directional data flows between SaaS applications (like GA, SAP, Salesforce, etc) and AWS services in just a few clicks. Supports data preparation with transformations, partitioning, and aggregation.</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -335,7 +335,7 @@ th, td {
                     <div class="row-header-wrapper">13</div>
                 </th>
                 <td class="service s8"><a target="_blank" href="https://aws.amazon.com/appsync">AWS AppSync</a></td>
-                <td class="description s8">AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data.
+                <td class="description s8">AWS AppSync creates serverless GraphQL (app-to-AWS) and Pub/Sub (AWS-to-app) APIs that simplify application development through a single endpoint to securely query, update, or publish data.
                 </td>
                 <td class="s6"></td>
             </tr>
@@ -368,7 +368,12 @@ th, td {
                     <div class="row-header-wrapper">17</div>
                 </th>
                 <td class="service s8"><a target="_blank" href="https://aws.amazon.com/sqs">Amazon Simple Queue Service (Amazon SQS)</a></td>
-                <td class="description s8">Amazon SQS lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.</td>
+                <td class="description s8">Amazon SQS lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.
+                <ul>
+                    <li>SQS standard: unlimited capacity (duplicates and wrong order may occur)</li>
+                    <li>SQS FIFO: 300 - 3000 transactions per second with batching</li>
+                </ul>
+                </td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -426,7 +431,7 @@ th, td {
                     <div class="row-header-wrapper">24</div>
                 </th>
                 <td class="service s14"><a target="_blank" href="https://aws.amazon.com/ec2">Amazon Elastic Compute Cloud (AWS EC2)</a></td>
-                <td class="description s14" dir="ltr">Amazon EC2 offers the broadest and deepest compute platform, with over 600 instances and a choice of the latest processor, storage, networking, operating system and purchase model.</td>
+                <td class="description s14" dir="ltr">Amazon EC2 offers the broadest and deepest compute platform, with over 600 instances and a choice of the latest processor, storage, networking, operating system and purchase model. Use IP 169.254.169.254 to get metadata about running EC2 instances.</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -483,7 +488,7 @@ th, td {
                 </th>
                 <td class="category s17" rowspan="6">Containers</td>
                 <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ecr">Amazon Elastic Container Registry (Amazon ECR)</a></td>
-                <td class="description s17">Amazon Amazon ECR is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere. ECR provides the repository for all code which has been written and packaged as Docker images.
+                <td class="description s17">Amazon ECR is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere. ECR provides the repository for all code which has been written and packaged as Docker images.
                 </td>
                 <td class="s6"></td>
             </tr>
@@ -597,7 +602,7 @@ th, td {
                     <div class="row-header-wrapper">45</div>
                 </th>
                 <td class="service s20"><a target="_blank" href="https://aws.amazon.com/rds">Amazon RDS</a></td>
-                <td class="description s20">Amazon RDS (Relational Database Service) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Choose from seven popular engines — Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server — and deploy on-premises with Amazon RDS on AWS Outposts.</td>
+                <td class="description s20">Amazon RDS (Relational Database Service) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Choose from seven popular engines — Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server — and deploy on-premises with Amazon RDS on AWS Outposts. RDS Proxy is a managed connection pool for RDS.</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1003,7 +1008,7 @@ th, td {
                     <div class="row-header-wrapper">95</div>
                 </th>
                 <td class="service s11"><a target="_blank" href="https://aws.amazon.com/elasticloadbalancing/">Elastic Load Balancing (ELB)</a></td>
-                <td class="description s11">Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs).
+                <td class="description s11">Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets in one or more Availability Zones (AZs), but not across Regions.
                     <br>
                     <a href="https://en.wikipedia.org/wiki/OSI_model">OSI Layers</a>
                     <ul>
@@ -1093,7 +1098,7 @@ th, td {
                     <div class="row-header-wrapper">105</div>
                 </th>
                 <td class="service s11"><a target="_blank" href="https://aws.amazon.com/cloudhsm">AWS CloudHSM</a></td>
-                <td class="description s11">AWS CloudHSM lets you manage and access your keys on FIPS-validated hardware, protected with customer-owned, single-tenant HSM instances that run in your own Virtual Private Cloud (VPC). AWS CloudHSM helps you meet corporate, contractual, and regulatory compliance requirements for data security.</td>
+                <td class="description s11">AWS CloudHSM lets you manage and access your keys on FIPS-validated hardware, protected with customer-owned, single-tenant HSM instances that run in your own Virtual Private Cloud (VPC). Single-tenant, fine-grained control but also more maintenance-demanding and more costly alternative to AWS KMS. FIPS 140-2 Compliance: 3.</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1157,7 +1162,7 @@ th, td {
                     <div class="row-header-wrapper">113</div>
                 </th>
                 <td class="service s11"><a target="_blank" href="https://aws.amazon.com/kms">AWS Key Management Service (AWS KMS)</a></td>
-                <td class="description s11" dir="ltr">AWS KMS lets you create, manage, and control cryptographic keys across your applications and AWS services.</td>
+                <td class="description s11" dir="ltr">AWS KMS lets you create, manage, and control cryptographic keys across your applications and AWS services. Multi-tenant, and low maintenance, cheaper alternative to Cloud HSM. FIPS 140-2 Compliance: 2 (3 in some ares).</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1213,7 +1218,20 @@ th, td {
                     <div class="row-header-wrapper">120</div>
                 </th>
                 <td class="service s11"><a target="_blank" href="https://aws.amazon.com/single-sign-on">AWS IAM Identity Center</a></td>
-                <td class="description s11">AWS IAM Identity Center helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications. IAM Identity Center is the recommended approach for workforce authentication and authorization on AWS. Using IAM Identity Center, you can create and manage user identities in AWS, or connect your existing identity source, including Microsoft Active Directory, Okta, Ping Identity, JumpCloud, Google Workspace, and Azure Active Directory (Azure AD).</td>
+                <td class="description s11">AWS IAM Identity Center helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications.<br><br>
+
+                For Roles, a permissions policy enables the role to carry out certain tasks on a resource. A trust policy specifies who is allowed to assume the role.</td>
+                <td class="s6"></td>
+            </tr>
+            <tr>
+                <th id="734979953R120" class="row-headers-background">
+                    <div class="row-header-wrapper">120</div>
+                </th>
+                <td class="service s11"><a target="_blank" href="https://aws.amazon.com/single-sign-on">Security Token Service (STS)</a></td>
+                <td class="description s11">
+                Request temporary, limited-privilege credentials for AWS IAM.
+                Security Token Service is an extension of IAM and is one of several web services offered by AWS that does not incur any costs to use.
+                </td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1221,7 +1239,7 @@ th, td {
                     <div class="row-header-wrapper">121</div>
                 </th>
                 <td class="service s11"><a target="_blank" href="https://aws.amazon.com/waf">AWS WAF</a></td>
-                <td class="description s11" dir="ltr">AWS WAF helps you protect against common web exploits like SQL injection and cross-site-scripting.</td>
+                <td class="description s11" dir="ltr">AWS WAF helps you protect against common web exploits like SQL injection and cross-site-scripting. AWS WAF can be deployed on CloudFront, Application Load Balancer (ALB), API Gateway, and AppSync. </td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1263,7 +1281,7 @@ th, td {
                     <div class="row-header-wrapper">126</div>
                 </th>
                 <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ebs">Amazon Elastic Block Store (Amazon EBS)</a></td>
-                <td class="description s17">Amazon EBS is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).</td>
+                <td class="description s17">Amazon EBS is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2). Use cases include DAS, SAN, persistent storage for EC2.</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1271,7 +1289,7 @@ th, td {
                     <div class="row-header-wrapper">127</div>
                 </th>
                 <td class="service s17"><a target="_blank" href="https://aws.amazon.com/efs">Amazon Elastic File System (Amazon EFS)</a></td>
-                <td class="description s17" dir="ltr">Amazon EFS automatically grows and shrinks as you add and remove files with no need for management or provisioning. Linux-compatible</td>
+                <td class="description s17" dir="ltr">Amazon EFS automatically grows and shrinks as you add and remove files with no need for management or provisioning. Use cases include network-based file systems, NFS, hybrid access (VPN or Direct Connect) and Linux instances.</td>
                 <td class="s6"></td>
             </tr>
             <tr>
@@ -1287,7 +1305,9 @@ th, td {
                     <div class="row-header-wrapper">129</div>
                 </th>
                 <td class="service s17"><a target="_blank" href="https://aws.amazon.com/s3">Amazon S3</a></td>
-                <td class="description s17" dir="ltr">Amazon Simple Storage Service (Amazon S3) is an object storage service. Stores objects in resources called Buckets, which can be up to 5TB in size, but there are no total limits to the# of objects stored. Designed to provide 99.999999999% durability (11 nines) and up to 99.99% availability. </td>
+                <td class="description s17" dir="ltr">Amazon Simple Storage Service (Amazon S3) is an object storage service. Stores objects in resources called Buckets, which can be up to 5TB in size, but there are no total limits to the# of objects stored. Designed to provide 99.999999999% durability (11 nines) and up to 99.99% availability. <br><br>
+                Supports three types of server-side encryption: SSE-S3, SSE-KMS, SSE-C as well as client-side encryption.
+                </td>
                 <td class="s6"></td>
             </tr>
             <tr>

@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 
 baseurl = 'https://aws.amazon.com/'
-with open('/Users/per.aronsson/Documents/AWS/AWS-services-SAA003.txt', 'r') as reader:
+with open('./docs/AWS-services-SAA003.txt', 'r') as reader:
   resobj = {'title':'AWS Services', 'categories':[]}
   # Read and print the entire file line by line
   line = 'new'
@@ -43,7 +43,7 @@ with open('/Users/per.aronsson/Documents/AWS/AWS-services-SAA003.txt', 'r') as r
   print('\n', end='', flush=True)
 print('Finished', end='\n', flush=True)
 jsonString = json.dumps(resobj)
-jsonFile = open("/Users/per.aronsson/Documents/AWS/data-urls.json", "w")
+jsonFile = open("./docs/data-urls.json", "w") # This file has changed name
 jsonFile.write(jsonString)
 jsonFile.close()
 

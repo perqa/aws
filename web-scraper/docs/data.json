@@ -1,0 +1,893 @@
+{
+    "title": "AWS Services",
+    "categories":
+    [
+        {
+            "title": "Analytics",
+            "services":
+            [
+                {
+                    "title": "Amazon Athena",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/athena",
+                    "description": "Amazon Athena is a serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats. Athena provides a simplified, flexible way to analyze petabytes of data where it lives. Analyze data or build applications from an Amazon Simple Storage Service (S3) data lake and 30 data sources, including on-premises data sources or other cloud systems using SQL or Python. Athena is built on open-source Trino and Presto engines and Apache Spark frameworks, with no provisioning or configuration effort required."
+                },
+                {
+                    "title": "AWS Data Exchange",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/data-exchange",
+                    "description": "AWS Data Exchange is on a mission to increase speed to value for third-party data sets in the cloud."
+                },
+                {
+                    "title": "AWS Data Pipeline",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/data",
+                    "description": "Explore how organizations are putting their data to work to drive business outcomes, such as improving customer experience and making better, faster decisions., "
+                },
+                {
+                    "title": "Amazon EMR",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/emr",
+                    "description": "Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks, such as Apache Spark, Apache Hive, and Presto."
+                },
+                {
+                    "title": "AWS Glue",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/glue",
+                    "description": "AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development."
+                },
+                {
+                    "title": "Amazon Kinesis",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/kinesis",
+                    "description": "Amazon Kinesis cost-effectively processes and analyzes streaming data at any scale as a fully managed service. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications."
+                },
+                {
+                    "title": "AWS Lake Formation",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/lake-formation",
+                    "description": "AWS Lake Formation easily creates secure data lakes, making data available for wide-ranging analytics."
+                },
+                {
+                    "title": "Amazon Managed Streaming for Apache Kafka Amazon MSK",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/msk",
+                    "description": "Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka."
+                },
+                {
+                    "title": "Amazon OpenSearch Service Amazon Elasticsearch Service",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/opensearch-service/",
+                    "description": "Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch., Amazon OpenSearch Service offers the latest versions of OpenSearch, support for 19 versions of Elasticsearch (1.5 to 7.10 versions), as well as visualization capabilities powered by OpenSearch Dashboards and Kibana (1.5 to 7.10 versions). Amazon OpenSearch Service currently has tens of thousands of active customers with hundreds of thousands of clusters under management processing hundreds of trillions of requests per month."
+                },
+                {
+                    "title": "Amazon QuickSight",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/quicksight",
+                    "description": "Deliver insights to all your users when, where, and how they need them. BI users can explore modern, interactive dashboards; get insights within their applications; obtain scheduled, formatted reports with paginated reports; and make forward-looking decisions with ML insights. To further simplify data exploration, QuickSight allows users to ask questions about the data in natural language."
+                },
+                {
+                    "title": "Amazon Redshift",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/redshift",
+                    "description": "Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale."
+                }
+            ]
+        },
+        {
+            "title": "Application Integration",
+            "services":
+            [
+                {
+                    "title": "Amazon AppFlow",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/appflow",
+                    "description": "With Amazon AppFlow automate bi-directional data flows between SaaS applications and AWS services in just a few clicks. Run the data flows at the frequency you choose, whether on a schedule, in response to a business event, or on demand. Simplify data preparation with transformations, partitioning, and aggregation. Automate preparation and registration of your schema with the AWS Glue Data Catalog so you can discover and share data with AWS analytics and machine learning services."
+                },
+                {
+                    "title": "AWS AppSync",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/appsync",
+                    "description": "AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data., "
+                },
+                {
+                    "title": "Amazon EventBridge Amazon CloudWatch Events",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/events",
+                    "description": "Whether you are new to the cloud or an experienced user, you will learn something new at AWS events. These events are designed to educate you about AWS products, services, and solutions and help you develop the skills to design, deploy, and operate infrastructure and applications. Event content is delivered by subject matter experts from AWS, our partners, and our customers, who share how they have successfully built solutions on AWS."
+                },
+                {
+                    "title": "Amazon MQ",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/amazon-mq/",
+                    "description": "Message brokers allow software systems, which often use different programming languages on various platforms, to communication and exchange information. Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS. With a few steps, Amazon MQ can provision your message broker with support for software version upgrades."
+                },
+                {
+                    "title": "Amazon Simple Notification Service Amazon SNS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/sns",
+                    "description": "Amazon Simple Notification Service (Amazon SNS) sends notifications two ways, A2A and A2P. A2A provides high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. These applications include Amazon Simple Queue Service (SQS), Amazon Kinesis Data Firehose, AWS Lambda, and other HTTPS endpoints. A2P functionality lets you send messages to your customers with SMS texts, push notifications, and email., "
+                },
+                {
+                    "title": "Amazon Simple Queue Service Amazon SQS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/sqs",
+                    "description": "Amazon Simple Queue Service (Amazon SQS) lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available."
+                },
+                {
+                    "title": "AWS Step Functions",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/step-functions",
+                    "description": "AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines."
+                }
+            ]
+        },
+        {
+            "title": "AWS Cost Management",
+            "services":
+            [
+                {
+                    "title": "AWS Budgets",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws-cost-management/aws-budgets/",
+                    "description": "With AWS Budgets, set custom budgets to track your costs and usage, and respond quickly to alerts received from email or SNS notifications if you exceed your threshold."
+                },
+                {
+                    "title": "AWS Cost and Usage Report",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/",
+                    "description": "With AWS Cost and Usage Reports (CUR), you can review, itemize, and organize the most comprehensive cost and usage data for your account."
+                },
+                {
+                    "title": "AWS Cost Explorer",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws-cost-management/cost-explorer"
+                },
+                {
+                    "title": "Savings Plans",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/savingsplans",
+                    "description": "Savings Plans is a flexible pricing model that can help you reduce your bill by up to 72% compared to On-Demand prices, in exchange for a one- or three-year hourly spend commitment. AWS offers three types of Savings Plans: Compute Savings Plans, EC2 Instance Savings Plans, and Amazon SageMaker Savings Plans."
+                }
+            ]
+        },
+        {
+            "title": "Compute",
+            "services":
+            [
+                {
+                    "title": "AWS Batch",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/batch",
+                    "description": "AWS Batch lets developers, scientists, and engineers efficiently run hundreds of thousands of batch and ML computing jobs while optimizing compute resources, so you can focus on analyzing results and solving problems., "
+                },
+                {
+                    "title": "Amazon EC2",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/ec2",
+                    "description": "Secure and resizable compute capacity for virtually any workload"
+                },
+                {
+                    "title": "Amazon EC2 Auto Scaling",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ec2",
+                    "description": "Secure and resizable compute capacity for virtually any workload"
+                },
+                {
+                    "title": "AWS Elastic Beanstalk",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/elasticbeanstalk",
+                    "description": "AWS Elastic Beanstalk deploys web applications so that you can focus on your business."
+                },
+                {
+                    "title": "AWS Outposts",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/outposts",
+                    "description": "Extend AWS compute, networking, security, and other services on premises for low latency, local data processing, and data residency needs."
+                },
+                {
+                    "title": "AWS Serverless Application Repository",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/serverless",
+                    "description": "Ready to build? Head over to the learning library to get started with hands-on serverless tutorials."
+                },
+                {
+                    "title": "VMware Cloud on AWS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws",
+                    "description": "Go from learning to doing with more than 500 free digital training courses built by AWS experts"
+                },
+                {
+                    "title": "AWS Wavelength",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/wavelength",
+                    "description": "AWS Wavelength embeds AWS compute and storage services within 5G networks, providing mobile edge computing infrastructure for developing, deploying, and scaling ultra-low-latency applications."
+                }
+            ]
+        },
+        {
+            "title": "Containers",
+            "services":
+            [
+                {
+                    "title": "Amazon Elastic Container Registry Amazon ECR",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ecr",
+                    "description": "Amazon Elastic Container Registry (Amazon ECR) is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere."
+                },
+                {
+                    "title": "Amazon Elastic Container Service Amazon ECS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ecs",
+                    "description": "The diagram shows how Amazon ECS launches, monitors, and scales applications across flexible compute options with automatic integrations to other AWS services. Developers describe their applications and the resources it needs, and let Amazon ECS do the rest. Operators perform system operations such as creating custom scaling and capacity rules, and observe and query data from application logs and telemetry. Three sections display from left to right., "
+                },
+                {
+                    "title": "Amazon ECS Anywhere",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ecs",
+                    "description": "The diagram shows how Amazon ECS launches, monitors, and scales applications across flexible compute options with automatic integrations to other AWS services. Developers describe their applications and the resources it needs, and let Amazon ECS do the rest. Operators perform system operations such as creating custom scaling and capacity rules, and observe and query data from application logs and telemetry. Three sections display from left to right., "
+                },
+                {
+                    "title": "Amazon Elastic Kubernetes Service Amazon EKS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/eks",
+                    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. With Amazon EKS, you can take advantage of all the performance, scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking and security services. On-premises, EKS provides a consistent, fully-supported Kubernetes solution with integrated tooling and simple deployment to AWS Outposts, virtual machines, or bare metal servers."
+                },
+                {
+                    "title": "Amazon EKS Anywhere",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/eks",
+                    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. With Amazon EKS, you can take advantage of all the performance, scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking and security services. On-premises, EKS provides a consistent, fully-supported Kubernetes solution with integrated tooling and simple deployment to AWS Outposts, virtual machines, or bare metal servers."
+                },
+                {
+                    "title": "Amazon EKS Distro",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/eks",
+                    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. With Amazon EKS, you can take advantage of all the performance, scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking and security services. On-premises, EKS provides a consistent, fully-supported Kubernetes solution with integrated tooling and simple deployment to AWS Outposts, virtual machines, or bare metal servers."
+                }
+            ]
+        },
+        {
+            "title": "Database",
+            "services":
+            [
+                {
+                    "title": "Amazon Aurora",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/aurora",
+                    "description": "The diagram shows the key features of Amazon Aurora and the integrations available with other AWS services.  The first section reads, \"Highly scalable, high-performance applications, including those built on modern serverless architectures.\" An arrow points to the second section.  The second section titled \"Amazon Aurora\" includes text that reads, \"MySQL- and PostgreSQL-compatible database built for the cloud.\" A box then encapsulates more text in the second section under the heading \"Configure key features,\" with explanatory text that reads, \"Security, automated backups, choice of instances and storage for price-performance and price-predictability needs, serverless, up to 15 low-latency read replicas, auditing, and more.\" This second section additionally lists the key Amazon Aurora features: \"High performance and Multi-AZ availability,\" \"Distributed storage for durability, performance, and fast recovery,\" \"Flexible and auto scaling compute,\" and \"Low-latency, cross-Region replication.\"  Next, a third section that flows into the fourth reads, \"Integrate with other AWS services to perform analytics and extract insights, or monitor trends and logs for enhanced security.\"  The fourth section lists AWS services that integrate with Amazon Aurora: Amazon S3, AWS Backup, Amazon DevOps Guru, AWS CloudTrail, Amazon Redshift, Amazon GuardDuty, Amazon CloudWatch, Amazon SageMaker, Amazon Comprehend, AWS Lambda, Amazon EKS, and AWS Secrets Manager."
+                },
+                {
+                    "title": "Amazon Aurora Serverless",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/serverless",
+                    "description": "Ready to build? Head over to the learning library to get started with hands-on serverless tutorials."
+                },
+                {
+                    "title": "Amazon DocumentDB with MongoDB compatibility",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/documentdb",
+                    "description": "Amazon DocumentDB (with MongoDB compatibility) is a fully managed native JSON document database that makes it easy and cost effective to operate critical document workloads at virtually any scale without managing infrastructure. Amazon DocumentDB simplifies your architecture by providing built-in security best practices, continuous backups, and native integrations with other AWS services."
+                },
+                {
+                    "title": "Amazon DynamoDB",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/dynamodb",
+                    "description": "The diagram shows the core features of Amazon DynamoDB and integrations with other AWS services. The three sections display from left to right.  The first section has an illustration of the DynamoDB service icon within a box titled “Configure Key Features”. Six boxes are displayed in two columns with three rows each with the following features represented per box: In the first column “NoSQL Workbench” top left box, “Encryption at rest” middle left box, and “On-demand capacity mode” in the bottom left box. In the second column, “Global Tables” top right box, “Point-in-time recovery” middle right box and “PartiQL supports” right bottom box. Below the six boxes each containing a feature, and below the heading of “Configure Key Features” is a sentence listing additional DynamoDB features.  The second section has an illustration of a magnifying glass looking at blocks of data. There is a left arrow signifying data coming from DynamoDB and a right arrow signifying data going into AWS services that DynamoDB integrates with. Under the magnifying glass is a headline of “Export, Analyze, Stream Data” with a sentence that explains the types of functions that can be performed when integrating with other AWS services.  The third section is a box containing five smaller boxes within it representing the five services DynamoDB integrates with. The top box contains “Amazon S3”, the second box contains “AWS Glue Elastic Views”, the third box contains “Amazon Kinesis Data Streams”, the fourth box contains “AWS CloudTrail” and the fifth and final box contains “Amazon Cloudwatch”. , "
+                },
+                {
+                    "title": "Amazon ElastiCache",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/elasticache",
+                    "description": "Amazon ElastiCache is, a fully managed, Redis- and Memcached-compatible service delivering real-time,, cost-optimized performance for modern applications. ElastiCache scales to, hundreds of millions of operations per second with microsecond response time,, and offers enterprise-grade security and reliability."
+                },
+                {
+                    "title": "Amazon Keyspaces for Apache Cassandra",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/keyspaces",
+                    "description": "Amazon Keyspaces enables you to use the Cassandra Query Language (CQL) API code, Cassandra drivers, and developer tools that you already use. Updating applications to use Amazon Keyspaces is as easy as changing the Cassandra hostname to the Amazon Keyspaces service endpoint."
+                },
+                {
+                    "title": "Amazon Neptune",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/neptune",
+                    "description": "Amazon Neptune is a fully managed database service built for the cloud that makes it easier to build and run graph applications. Neptune provides built-in security, continuous backups, serverless compute, and integrations with other AWS services."
+                },
+                {
+                    "title": "Amazon Quantum Ledger Database Amazon QLDB",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/qldb",
+                    "description": "Amazon Quantum Ledger Database (Amazon QLDB) is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log."
+                },
+                {
+                    "title": "Amazon RDS",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/rds",
+                    "description": "Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Choose from seven popular engines —, Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility,, MySQL, MariaDB, PostgreSQL,, Oracle, and SQL Server, —, and deploy on-premises with Amazon RDS on AWS Outposts."
+                },
+                {
+                    "title": "Amazon Redshift",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/redshift",
+                    "description": "Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale."
+                },
+                {
+                    "title": "Amazon Timestream",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/timestream",
+                    "description": "Amazon Timestream is a fast, scalable, and serverless time-series database service that makes it easier to store and analyze trillions of events per day up to 1,000 times faster. Amazon Timestream automatically scales up or down to adjust capacity and performance, so that you don’t have to manage the underlying infrastructure."
+                }
+            ]
+        },
+        {
+            "title": "Developer Tools",
+            "services":
+            [
+                {
+                    "title": "AWS X-Ray",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/x-ray",
+                    "description": "AWS X-Ray provides a complete view of requests as they travel through your application and filters visual data across payloads, functions, traces, services, APIs, and more with no-code and low-code motions."
+                }
+            ]
+        },
+        {
+            "title": "Front-End Web and Mobile",
+            "services":
+            [
+                {
+                    "title": "AWS Amplify",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/amplify",
+                    "description": "AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed."
+                },
+                {
+                    "title": "Amazon API Gateway",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/api-gateway",
+                    "description": "Build RESTful APIs optimized for serverless workloads and HTTP backends using HTTP APIs. HTTP APIs are the best choice for building APIs that only require API proxy functionality. If your APIs require API proxy functionality and API management features in a single solution, API Gateway also offers REST APIs."
+                },
+                {
+                    "title": "AWS Device Farm",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/device-farm",
+                    "description": "Run your Selenium tests in parallel on multiple versions of Chrome, Internet Explorer, and Firefox, that are hosted in the AWS Cloud."
+                },
+                {
+                    "title": "Amazon Pinpoint",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/pinpoint",
+                    "description": "Amazon Pinpoint offers marketers and developers one customizable tool to deliver customer communications across channels, segments, and campaigns at scale."
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "services":
+            [
+                {
+                    "title": "Amazon Comprehend",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/comprehend",
+                    "description": "Amazon Comprehend is a natural-language processing (NLP) service that uses machine learning to uncover valuable insights and connections in text."
+                },
+                {
+                    "title": "Amazon Forecast",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/forecast",
+                    "description": "Amazon Forecast is a time-series forecasting service based on machine learning (ML) and built for business metrics analysis."
+                },
+                {
+                    "title": "Amazon Fraud Detector",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/fraud-detector",
+                    "description": "Amazon Fraud Detector is a fully managed service enabling customers to identify potentially fraudulent activities and catch more online fraud faster."
+                },
+                {
+                    "title": "Amazon Kendra",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/kendra",
+                    "description": "Amazon Kendra is an intelligent enterprise search service that helps you search across different content repositories with built-in connectors."
+                },
+                {
+                    "title": "Amazon Lex",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/lex",
+                    "description": "Amazon Lex is a fully managed artificial intelligence (AI) service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications."
+                },
+                {
+                    "title": "Amazon Polly",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/polly",
+                    "description": "Amazon Polly uses deep learning technologies to synthesize natural-sounding human speech, so you can convert articles to speech. With dozens of lifelike voices across a broad set of languages, use Amazon Polly to build speech-activated applications."
+                },
+                {
+                    "title": "Amazon Rekognition",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/rekognition",
+                    "description": "Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos."
+                },
+                {
+                    "title": "Amazon SageMaker",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/sagemaker",
+                    "description": "Make ML predictions using a visual interface with SageMaker Canvas."
+                },
+                {
+                    "title": "Amazon Textract",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/textract",
+                    "description": "Amazon Textract is a machine learning (ML) service that automatically extracts text, handwriting, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. Today, many companies manually extract data from scanned documents such as PDFs, images, tables, and forms, or through simple OCR software that requires manual configuration (which often must be updated when the form changes). To overcome these manual and expensive processes, Textract uses ML to read and process any type of document, accurately extracting text, handwriting, tables, and other data with no manual effort. You can quickly automate document processing and act on the information extracted, whether you’re automating loans processing or extracting information from invoices and receipts. Textract can extract the data in minutes instead of hours or days. Additionally, you can add human reviews with Amazon Augmented AI to provide oversight of your models and check sensitive data."
+                },
+                {
+                    "title": "Amazon Transcribe",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/transcribe",
+                    "description": "With Transcribe Call Analytics, quickly extract actionable insights from customer conversations. AWS Contact Center Intelligence partners and Contact Lens for Amazon Connect offer turnkey solutions to improve customer engagement, increase agent productivity, and surface quality management alerts to supervisors."
+                },
+                {
+                    "title": "Amazon Translate",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/translate",
+                    "description": "Amazon Translate is a neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation."
+                }
+            ]
+        },
+        {
+            "title": "Management and Governance",
+            "services":
+            [
+                {
+                    "title": "AWS Auto Scaling",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/autoscaling",
+                    "description": "AWS Auto Scaling"
+                },
+                {
+                    "title": "AWS CloudFormation",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudformation",
+                    "description": "AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code."
+                },
+                {
+                    "title": "AWS CloudTrail",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudtrail",
+                    "description": "AWS CloudTrail monitors and records account activity across your AWS infrastructure, giving you control over storage, analysis, and remediation actions."
+                },
+                {
+                    "title": "Amazon CloudWatch",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudwatch",
+                    "description": "Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance."
+                },
+                {
+                    "title": "AWS Command Line Interface AWS CLI",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/cli",
+                    "description": "AWS Command Line Interface"
+                },
+                {
+                    "title": "AWS Compute Optimizer",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/compute-optimizer",
+                    "description": "AWS Compute Optimizer helps avoid overprovisioning and underprovisioning four,  types of AWS resources—Amazon Elastic Compute Cloud (EC2) instance types, Amazon Elastic Block Store (EBS) volumes, Amazon Elastic Container Service (ECS) services on AWS Fargate, and AWS Lambda functions—based on your utilization data."
+                },
+                {
+                    "title": "AWS Config",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/config",
+                    "description": "AWS Config continually assesses, audits, and evaluates the configurations and relationships of your resources on AWS, on premises, and on other clouds."
+                },
+                {
+                    "title": "AWS Control Tower",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/controltower",
+                    "description": "AWS Control Tower simplifies AWS experiences by orchestrating multiple AWS services on your behalf while maintaining the security and compliance needs of your organization."
+                },
+                {
+                    "title": "AWS License Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/license-manager",
+                    "description": "License Manager makes it easier for you to manage your software licenses from vendors, such as Microsoft, SAP, Oracle, and IBM, across AWS and your on-premises environments."
+                },
+                {
+                    "title": "Amazon Managed Grafana",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/grafana",
+                    "description": "Amazon Managed Grafana is a fully managed service for Grafana, a popular open-source analytics platform that enables you to query, visualize, and alert on your metrics, logs, and traces."
+                },
+                {
+                    "title": "Amazon Managed Service for Prometheus",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/prometheus",
+                    "description": "Amazon Managed Service for Prometheus is a Prometheus-compatible service that monitors and provides alerts on containerized applications and infrastructure at scale. The service is integrated with Amazon Elastic Kubernetes Service (EKS), Amazon Elastic Container Service (ECS), and AWS Distro for OpenTelemetry."
+                },
+                {
+                    "title": "AWS Management Console",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/console",
+                    "description": "Get additional help with support plans, sales, and the AWS Partner Network."
+                },
+                {
+                    "title": "AWS Organizations",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/organizations",
+                    "description": "AWS Organizations lets you create new AWS accounts at no additional charge. With accounts in an organization, you can easily allocate resources, group accounts, and apply governance policies to accounts or groups."
+                },
+                {
+                    "title": "AWS Personal Health Dashboard",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/premiumsupport/technology/aws-health-dashboard/",
+                    "description": "When you sign in to the AWS Health Dashboard, you have a personalized view of the AWS service status that powers your application. Use the AWS Health Dashboard to learn about specific operational issues that affect your account. For example, if you receive an event for a lost Amazon Elastic Block Store (EBS) volume associated with one of your Amazon EC2 instances, you can quickly view how your resources are impacted, helping you to troubleshoot and remediate."
+                },
+                {
+                    "title": "AWS Proton",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/proton",
+                    "description": "AWS Proton is a deployment workflow tool for modern applications that helps platform and DevOps engineers achieve organizational agility."
+                },
+                {
+                    "title": "AWS Service Catalog",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/servicecatalog",
+                    "description": "AWS Service Catalog lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC) templates, written in CloudFormation or Terraform. With AWS Service Catalog, you can meet your compliance requirements while making sure your customers can quickly deploy the cloud resources they need."
+                },
+                {
+                    "title": "AWS Systems Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/systems-manager",
+                    "description": "AWS Systems Manager is a secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments."
+                },
+                {
+                    "title": "AWS Trusted Advisor",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/trustedadvisor",
+                    "description": "Checks from Trusted Advisor analyze your AWS environment and recommend actions to follow best practices."
+                },
+                {
+                    "title": "AWS Well-Architected Tool",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/well-architected-tool",
+                    "description": "The AWS Well-Architected Tool is designed to help you review the state of your applications and workloads against architectural best practices, identify opportunities for improvement, and track progress over time."
+                }
+            ]
+        },
+        {
+            "title": "Media Services",
+            "services":
+            [
+                {
+                    "title": "Amazon Elastic Transcoder",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/elastictranscoder",
+                    "description": "Amazon Elastic Transcoder"
+                },
+                {
+                    "title": "Amazon Kinesis Video Streams",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/kinesis",
+                    "description": "Amazon Kinesis cost-effectively processes and analyzes streaming data at any scale as a fully managed service. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications."
+                }
+            ]
+        },
+        {
+            "title": "Migration and Transfer",
+            "services":
+            [
+                {
+                    "title": "AWS Application Discovery Service",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/application-discovery/",
+                    "description": "AWS Application Discovery Service helps you plan cloud migration projects by gathering information about your on-premises data centers."
+                },
+                {
+                    "title": "AWS Application Migration Service CloudEndure Migration",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/migration",
+                    "description": "Drive innovation, meet business objectives, and get the most out of your AWS services by partnering with technically validated AWS Partners."
+                },
+                {
+                    "title": "AWS Database Migration Service AWS DMS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/dms",
+                    "description": "AWS Database Migration Service (AWS DMS) is a managed migration and replication service that helps move your database and analytics workloads to AWS quickly, securely, and with minimal downtime and zero data loss. AWS DMS supports migration between 20-plus database and analytics engines, such as, Oracle to Amazon Aurora MySQL-Compatible Edition,, MySQL to Amazon Relational Database (RDS) for MySQL,, Microsoft SQL Server to Amazon Aurora PostgreSQL-Compatible Edition,, MongoDB to Amazon DocumentDB (with MongoDB compatibility),, Oracle to Amazon Redshift, and, Amazon Simple Storage Service (S3)."
+                },
+                {
+                    "title": "AWS DataSync",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/datasync",
+                    "description": "Transfer data between on premises and AWS, Transfer data between AWS storage services, Transfer data between AWS and other locations, Transfer data between on premises and AWS, AWS DataSync is a secure, online service that automates and accelerates moving data between on premises and AWS Storage services. DataSync can copy data between Network File System (NFS) shares, Server Message Block (SMB) shares, Hadoop Distributed File Systems (HDFS), self-managed object storage, AWS Snowcone, Amazon Simple Storage Service (Amazon S3) buckets, Amazon Elastic File System (Amazon EFS) file systems, Amazon FSx for Windows File Server file systems, Amazon FSx for Lustre file systems, Amazon FSz for OpenZFS file systems, and Amazon FSx for NetApp ONTAP file systems., Transfer data between AWS storage services, AWS DataSync is also used to transfer data between AWS Storage services so you can replicate, archive, or share application data easily., Transfer data between AWS and other locations, AWS DataSync supports moving data between other public clouds and AWS Storage services."
+                },
+                {
+                    "title": "AWS Migration Hub",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/migration-hub",
+                    "description": "AWS Migration Hub provides a central location to collect server and application inventory data for the assessment, planning, and tracking of migrations to AWS. Migration Hub can also help accelerate application modernization following migration."
+                },
+                {
+                    "title": "AWS Application Migration Service AWS SMS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/application-migration-service/",
+                    "description": "AWS Application Migration Service minimizes time-intensive, error-prone manual processes by automating the conversion of your source servers to run natively on AWS. It also simplifies application modernization with built-in and custom optimization options."
+                },
+                {
+                    "title": "AWS Snow Family",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/snow",
+                    "description": "Each feature listed below are standard features across each device type. To learn more about AWS Snowcone or AWS Snowball device specifications unique to each device type, visit their feature pages."
+                },
+                {
+                    "title": "AWS Transfer Family",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/transfer",
+                    "description": "AWS Transfer Family securely scales your recurring business-to-business file transfers to AWS Storage services using SFTP, FTPS, FTP, and AS2 protocols."
+                }
+            ]
+        },
+        {
+            "title": "Networking and Content Delivery",
+            "services":
+            [
+                {
+                    "title": "Amazon CloudFront",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudfront",
+                    "description": "Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience."
+                },
+                {
+                    "title": "AWS Direct Connect",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/connect",
+                    "description": "With Amazon Connect, you can set up a contact center in minutes that can scale to support millions of customers."
+                },
+                {
+                    "title": "Elastic Load Balancing ELB",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/elasticloadbalancing/",
+                    "description": "Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs)."
+                },
+                {
+                    "title": "AWS Global Accelerator",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/global-accelerator",
+                    "description": "AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications. Global Accelerator provides two global static public IPs that act as a fixed entry point to your application endpoints, such as Application Load Balancers, Network Load Balancers, Amazon Elastic Compute Cloud (EC2) instances, and elastic IPs."
+                },
+                {
+                    "title": "AWS PrivateLink",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/privatelink",
+                    "description": "AWS PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet. Interface VPC endpoints, powered by PrivateLink, connect you to services hosted by AWS Partners and supported solutions available in AWS Marketplace."
+                },
+                {
+                    "title": "Amazon Route 53",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/route53",
+                    "description": "Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises."
+                },
+                {
+                    "title": "AWS Transit Gateway",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/transit-gateway",
+                    "description": "AWS Transit Gateway connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships. Transit Gateway acts as a highly scalable cloud router—each new connection is made only once."
+                },
+                {
+                    "title": "Amazon VPC",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/vpc",
+                    "description": "VPCs can communicate with each other across accounts, Availability Zones, and AWS Regions. This diagram shows one possible configuration where, within Region 1, network traffic is shared between a VPC in availability zone 1 and a VPC in availability zone 2. The same architecture is shown for Region 2. The VPCs in Regions 1 and 2 are not able to connect to one another in this example."
+                },
+                {
+                    "title": "AWS VPN",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/vpn",
+                    "description": "AWS Client VPN, AWS Site-to-Site VPN, AWS Client VPN, AWS Client VPN is used by your remote workforce to securely access resources both on AWS and within your on-premises networks.             , Click to enlarge Close              AWS Site-to-Site VPN, AWS Site-to-Site VPN creates encrypted connections between your locations (such as data centers and remote offices) and your AWS resources.             , Click to enlarge Close"
+                }
+            ]
+        },
+        {
+            "title": "Security Identity and Compliance",
+            "services":
+            [
+                {
+                    "title": "AWS Artifact",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/artifact",
+                    "description": "AWS Artifact is your go-to, central resource for compliance-related information that matters to you. It provides on-demand access to security and compliance reports from AWS and ISVs who sell their products on AWS Marketplace."
+                },
+                {
+                    "title": "AWS Audit Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/audit-manager",
+                    "description": "Use AWS Audit Manager to map your compliance requirements to AWS usage data with prebuilt and custom frameworks and automated evidence collection."
+                },
+                {
+                    "title": "AWS Certificate Manager ACM",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/acm",
+                    "description": "Use AWS Certificate Manager (ACM) to provision, manage, and deploy public and private SSL/TLS certificates for use with AWS services and your internal connected resources. ACM removes the time-consuming manual process of purchasing, uploading, and renewing SSL/TLS certificates."
+                },
+                {
+                    "title": "AWS CloudHSM",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudhsm",
+                    "description": "AWS CloudHSM helps you meet corporate, contractual, and regulatory compliance requirements for data security."
+                },
+                {
+                    "title": "Amazon Cognito",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cognito",
+                    "description": "With Amazon Cognito, you can add user sign-up and sign-in features and control access to your web and mobile applications. Amazon Cognito provides an identity store that scales to millions of users, supports social and enterprise identity federation, and offers advanced security features to protect your consumers and business. Built on open identity standards, Amazon Cognito supports various compliance regulations and integrates with frontend and backend development resources."
+                },
+                {
+                    "title": "Amazon Detective",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/detective",
+                    "description": "Amazon Detective simplifies the investigative process and helps security teams conduct faster and more effective investigations. With the Amazon Detective prebuilt data aggregations, summaries, and context, you can quickly analyze and determine the nature and extent of possible security issues."
+                },
+                {
+                    "title": "AWS Directory Service",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/directoryservice",
+                    "description": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, activates your directory-aware workloads and AWS resources to use managed AD on AWS."
+                },
+                {
+                    "title": "AWS Firewall Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/firewall-manager",
+                    "description": "AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations. As new applications are created, Firewall Manager makes it easier to bring new applications and resources into compliance by enforcing a common set of security rules."
+                },
+                {
+                    "title": "Amazon GuardDuty",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/guardduty",
+                    "description": "This diagram details GuardDuty’s features and integration with different AWS workload and resource types. The diagram is divided into five sections that display from left to right."
+                },
+                {
+                    "title": "AWS Identity and Access Management IAM",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/iam",
+                    "description": "With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS, centrally manage fine-grained permissions, and analyze access to refine permissions across AWS."
+                },
+                {
+                    "title": "Amazon Inspector",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/inspector",
+                    "description": "Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure."
+                },
+                {
+                    "title": "AWS Key Management Service AWS KMS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/kms",
+                    "description": "The diagram shows the key features of AWS Key Management Service and the integrations available with other AWS services. Three sections display.  The first section has the title “AWS KMS,” with an illustration of the AWS KMS architectural icon, and the text “Create and control the cryptographic keys that protect your data.” A box appears to the right titled “Create a KMS key” with text “Your KMS keys never leave our FIPS 140-validated HSMs unencrypted, and you control who can access and use them.” To the right is another heading \"Cryptographic operations,” with explanatory text that reads, \"Use your KMS keys in cryptographic operations.\" This first section additionally lists the key AWS KMS features. These features are: \"Encrypt and decrypt data,\" \"Sign and verify,\" \"Generate and export data keys,\" and \"Generate and verify MACs.\""
+                },
+                {
+                    "title": "Amazon Macie",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/macie",
+                    "description": "Amazon Macie is a data security service that uses machine learning (ML) and pattern matching to discover and help protect your sensitive data."
+                },
+                {
+                    "title": "AWS Network Firewall",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/network-firewall",
+                    "description": "With AWS Network Firewall, you can define firewall rules that provide fine-grained control over network traffic. Network Firewall works together with AWS Firewall Manager so you can build policies based on Network Firewall rules and then centrally apply those policies across your virtual private clouds (VPCs) and accounts."
+                },
+                {
+                    "title": "AWS Resource Access Manager AWS RAM",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ram",
+                    "description": "AWS RAM helps you securely share your resources across AWS accounts, within your organization or organizational units (OUs), and with IAM roles and users for supported resource types."
+                },
+                {
+                    "title": "AWS Secrets Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/secrets-manager",
+                    "description": "AWS Secrets Manager helps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycles."
+                },
+                {
+                    "title": "AWS Security Hub",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/security-hub",
+                    "description": "AWS Security Hub is a cloud security posture management (CSPM) service that performs security best practice checks, aggregates alerts, and enables automated remediation."
+                },
+                {
+                    "title": "AWS Shield",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/shield",
+                    "description": "AWS Shield is a managed DDoS protection service that safeguards applications running on AWS."
+                },
+                {
+                    "title": "AWS Single Sign-On",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/single-sign-on",
+                    "description": "AWS IAM Identity Center (successor to AWS Single Sign-On) helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications. IAM Identity Center is the recommended approach for workforce authentication and authorization on AWS for organizations of any size and type. Using IAM Identity Center, you can create and manage user identities in AWS, or connect your existing identity source, including Microsoft Active Directory, Okta, Ping Identity, JumpCloud, Google Workspace, and Azure Active Directory (Azure AD)."
+                },
+                {
+                    "title": "AWS WAF",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/waf",
+                    "description": "AWS WAF helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources."
+                }
+            ]
+        },
+        {
+            "title": "Serverless",
+            "services":
+            [
+                {
+                    "title": "AWS AppSync",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/appsync",
+                    "description": "AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data., "
+                },
+                {
+                    "title": "AWS Fargate",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/fargate",
+                    "description": "AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS)., Select any OCI-compliant container image, define memory and compute resources, and run the container with serverless compute. With multiple CPU architectures and operating systems supported, you can enjoy the benefits across a wide variety of applications."
+                },
+                {
+                    "title": "AWS Lambda",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/lambda",
+                    "description": "Use Amazon Simple Storage Service (Amazon S3) to trigger AWS Lambda data processing in real time after an upload, or connect to an existing Amazon EFS file system to enable massively parallel shared access for large-scale file processing."
+                }
+            ]
+        },
+        {
+            "title": "Storage",
+            "services":
+            [
+                {
+                    "title": "AWS Backup",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/backup",
+                    "description": "AWS Backup is a cost-effective, fully managed, policy-based service that simplifies data protection at scale."
+                },
+                {
+                    "title": "Amazon Elastic Block Store Amazon EBS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ebs",
+                    "description": "Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2)."
+                },
+                {
+                    "title": "Amazon Elastic File System Amazon EFS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/efs",
+                    "description": "Amazon Elastic File System (EFS) automatically grows and shrinks as you add and remove files with no need for management or provisioning."
+                },
+                {
+                    "title": "Amazon FSx for all types",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/fsx",
+                    "description": "Amazon FSx"
+                },
+                {
+                    "title": "Amazon S3",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/s3",
+                    "description": "The diagram shows how to move data to Amazon S3, manage stored data in Amazon S3, and analyze data with other services. Three sections display from left to right."
+                },
+                {
+                    "title": "Amazon S3 Glacier",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/glacier",
+                    "description": "The Amazon S3 Glacier storage classes provide retrieval options from milliseconds to hours to fit your performance needs. The S3 Glacier Instant Retrieval storage class delivers milliseconds retrieval for archives that need immediate access, such as medical images or news media assets. S3 Glacier Flexible Retrieval provides three retrieval options: expedited retrievals that typically complete in 1–5 minutes, standard retrievals that typically complete in 3–5 hours, and free bulk retrievals that return large amounts of data typically in 5–12 hours. The Amazon S3 Glacier Deep Archive storage class provides two retrieval options ranging from 12-48 hours."
+                },
+                {
+                    "title": "AWS Storage Gateway",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/storage-gateway",
+                    "description": "AWS Storage Gateway is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage."
+                },
+                {
+                    "title": "",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/",
+                    "description": "Go from learning to doing with more than 500 free digital training courses built by AWS experts"
+                }
+            ]
+        }
+    ]
+}

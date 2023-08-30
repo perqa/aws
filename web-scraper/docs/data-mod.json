@@ -1,0 +1,762 @@
+{
+    "title": "AWS Services",
+    "categories":
+    [
+        {
+            "title": "Analytics",
+            "services":
+            [
+                {
+                    "title": " Amazon Athena",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/athena"
+                },
+                {
+                    "title": " AWS Data Exchange",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/data-exchange"
+                },
+                {
+                    "title": " AWS Data Pipeline",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/data"
+                },
+                {
+                    "title": " Amazon EMR",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/emr"
+                },
+                {
+                    "title": " AWS Glue",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/glue"
+                },
+                {
+                    "title": " Amazon Kinesis",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/kinesis"
+                },
+                {
+                    "title": " AWS Lake Formation",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/lake-formation"
+                },
+                {
+                    "title": " Amazon Managed Streaming for Apache Kafka Amazon MSK",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/msk"
+                },
+                {
+                    "title": " Amazon OpenSearch Service Amazon Elasticsearch Service",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/opensearch-service/"
+                },
+                {
+                    "title": " Amazon QuickSight",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/quicksight"
+                },
+                {
+                    "title": " Amazon Redshift",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/redshift"
+                }
+            ]
+        },
+        {
+            "title": "Application Integration",
+            "services":
+            [
+                {
+                    "title": " Amazon AppFlow",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/appflow"
+                },
+                {
+                    "title": " AWS AppSync",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/appsync"
+                },
+                {
+                    "title": " Amazon EventBridge Amazon CloudWatch Events",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/events"
+                },
+                {
+                    "title": " Amazon MQ",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/amazon-mq/"
+                },
+                {
+                    "title": " Amazon Simple Notification Service Amazon SNS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/sns"
+                },
+                {
+                    "title": " Amazon Simple Queue Service Amazon SQS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/sqs"
+                },
+                {
+                    "title": " AWS Step Functions",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/step-functions"
+                }
+            ]
+        },
+        {
+            "title": "AWS Cost Management",
+            "services":
+            [
+                {
+                    "title": " AWS Budgets",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws-cost-management/aws-budgets/"
+                },
+                {
+                    "title": " AWS Cost and Usage Report",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/"
+                },
+                {
+                    "title": " AWS Cost Explorer",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws-cost-management/cost-explorer"
+                },
+                {
+                    "title": " Savings Plans",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/savingsplans"
+                }
+            ]
+        },
+        {
+            "title": "Compute",
+            "services":
+            [
+                {
+                    "title": " AWS Batch",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/batch"
+                },
+                {
+                    "title": " Amazon EC2",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/ec2"
+                },
+                {
+                    "title": " Amazon EC2 Auto Scaling",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ec2"
+                },
+                {
+                    "title": " AWS Elastic Beanstalk",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/elasticbeanstalk"
+                },
+                {
+                    "title": " AWS Outposts",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/outposts"
+                },
+                {
+                    "title": " AWS Serverless Application Repository",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/serverless"
+                },
+                {
+                    "title": " VMware Cloud on AWS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/aws"
+                },
+                {
+                    "title": " AWS Wavelength",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/wavelength"
+                }
+            ]
+        },
+        {
+            "title": "Containers",
+            "services":
+            [
+                {
+                    "title": " Amazon Elastic Container Registry Amazon ECR",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ecr"
+                },
+                {
+                    "title": " Amazon Elastic Container Service Amazon ECS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ecs"
+                },
+                {
+                    "title": " Amazon ECS Anywhere",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ecs"
+                },
+                {
+                    "title": " Amazon Elastic Kubernetes Service Amazon EKS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/eks"
+                },
+                {
+                    "title": " Amazon EKS Anywhere",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/eks"
+                },
+                {
+                    "title": " Amazon EKS Distro",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/eks"
+                }
+            ]
+        },
+        {
+            "title": "Database",
+            "services":
+            [
+                {
+                    "title": " Amazon Aurora",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/aurora"
+                },
+                {
+                    "title": " Amazon Aurora Serverless",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/serverless"
+                },
+                {
+                    "title": " Amazon DocumentDB with MongoDB compatibility",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/documentdb"
+                },
+                {
+                    "title": " Amazon DynamoDB",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/dynamodb"
+                },
+                {
+                    "title": " Amazon ElastiCache",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/elasticache"
+                },
+                {
+                    "title": " Amazon Keyspaces for Apache Cassandra",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/keyspaces"
+                },
+                {
+                    "title": " Amazon Neptune",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/neptune"
+                },
+                {
+                    "title": " Amazon Quantum Ledger Database Amazon QLDB",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/qldb"
+                },
+                {
+                    "title": " Amazon RDS",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/rds"
+                },
+                {
+                    "title": " Amazon Redshift",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/redshift"
+                },
+                {
+                    "title": " Amazon Timestream",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/timestream"
+                }
+            ]
+        },
+        {
+            "title": "Developer Tools",
+            "services":
+            [
+                {
+                    "title": " AWS X-Ray",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/x-ray"
+                }
+            ]
+        },
+        {
+            "title": "Front-End Web and Mobile",
+            "services":
+            [
+                {
+                    "title": " AWS Amplify",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/amplify"
+                },
+                {
+                    "title": " Amazon API Gateway",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/api-gateway"
+                },
+                {
+                    "title": " AWS Device Farm",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/device-farm"
+                },
+                {
+                    "title": " Amazon Pinpoint",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/pinpoint"
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "services":
+            [
+                {
+                    "title": " Amazon Comprehend",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/comprehend"
+                },
+                {
+                    "title": " Amazon Forecast",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/forecast"
+                },
+                {
+                    "title": " Amazon Fraud Detector",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/fraud-detector"
+                },
+                {
+                    "title": " Amazon Kendra",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/kendra"
+                },
+                {
+                    "title": " Amazon Lex",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/lex"
+                },
+                {
+                    "title": " Amazon Polly",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/polly"
+                },
+                {
+                    "title": " Amazon Rekognition",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/rekognition"
+                },
+                {
+                    "title": " Amazon SageMaker",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/sagemaker"
+                },
+                {
+                    "title": " Amazon Textract",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/textract"
+                },
+                {
+                    "title": " Amazon Transcribe",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/transcribe"
+                },
+                {
+                    "title": " Amazon Translate",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/translate"
+                }
+            ]
+        },
+        {
+            "title": "Management and Governance",
+            "services":
+            [
+                {
+                    "title": " AWS Auto Scaling",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/autoscaling"
+                },
+                {
+                    "title": " AWS CloudFormation",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudformation"
+                },
+                {
+                    "title": " AWS CloudTrail",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudtrail"
+                },
+                {
+                    "title": " Amazon CloudWatch",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudwatch"
+                },
+                {
+                    "title": " AWS Command Line Interface AWS CLI",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/cli"
+                },
+                {
+                    "title": " AWS Compute Optimizer",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/compute-optimizer"
+                },
+                {
+                    "title": " AWS Config",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/config"
+                },
+                {
+                    "title": " AWS Control Tower",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/controltower"
+                },
+                {
+                    "title": " AWS License Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/license-manager"
+                },
+                {
+                    "title": " Amazon Managed Grafana",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/grafana"
+                },
+                {
+                    "title": " Amazon Managed Service for Prometheus",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/prometheus"
+                },
+                {
+                    "title": " AWS Management Console",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/console"
+                },
+                {
+                    "title": " AWS Organizations",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/organizations"
+                },
+                {
+                    "title": " AWS Personal Health Dashboard",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/premiumsupport/technology/aws-health-dashboard/"
+                },
+                {
+                    "title": " AWS Proton",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/proton"
+                },
+                {
+                    "title": " AWS Service Catalog",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/servicecatalog"
+                },
+                {
+                    "title": " AWS Systems Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/systems-manager"
+                },
+                {
+                    "title": " AWS Trusted Advisor",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/trustedadvisor"
+                },
+                {
+                    "title": " AWS Well-Architected Tool",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/well-architected-tool"
+                }
+            ]
+        },
+        {
+            "title": "Media Services",
+            "services":
+            [
+                {
+                    "title": " Amazon Elastic Transcoder",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/elastictranscoder"
+                },
+                {
+                    "title": " Amazon Kinesis Video Streams",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/kinesis"
+                }
+            ]
+        },
+        {
+            "title": "Migration and Transfer",
+            "services":
+            [
+                {
+                    "title": " AWS Application Discovery Service",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/application-discovery/"
+                },
+                {
+                    "title": " AWS Application Migration Service CloudEndure Migration",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/migration"
+                },
+                {
+                    "title": " AWS Database Migration Service AWS DMS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/dms"
+                },
+                {
+                    "title": " AWS DataSync",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/datasync"
+                },
+                {
+                    "title": " AWS Migration Hub",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/migration-hub"
+                },
+                {
+                    "title": " AWS Application Migration Service AWS SMS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/application-migration-service/"
+                },
+                {
+                    "title": " AWS Snow Family",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/snow"
+                },
+                {
+                    "title": " AWS Transfer Family",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/transfer"
+                }
+            ]
+        },
+        {
+            "title": "Networking and Content Delivery",
+            "services":
+            [
+                {
+                    "title": " Amazon CloudFront",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudfront"
+                },
+                {
+                    "title": " AWS Direct Connect",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/connect"
+                },
+                {
+                    "title": " Elastic Load Balancing ELB",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/elasticloadbalancing/"
+                },
+                {
+                    "title": " AWS Global Accelerator",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/global-accelerator"
+                },
+                {
+                    "title": " AWS PrivateLink",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/privatelink"
+                },
+                {
+                    "title": " Amazon Route 53",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/route53"
+                },
+                {
+                    "title": " AWS Transit Gateway",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/transit-gateway"
+                },
+                {
+                    "title": " Amazon VPC",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/vpc"
+                },
+                {
+                    "title": " AWS VPN",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/vpn"
+                }
+            ]
+        },
+        {
+            "title": "Security Identity and Compliance",
+            "services":
+            [
+                {
+                    "title": " AWS Artifact",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/artifact"
+                },
+                {
+                    "title": " AWS Audit Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/audit-manager"
+                },
+                {
+                    "title": " AWS Certificate Manager ACM",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/acm"
+                },
+                {
+                    "title": " AWS CloudHSM",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cloudhsm"
+                },
+                {
+                    "title": " Amazon Cognito",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/cognito"
+                },
+                {
+                    "title": " Amazon Detective",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/detective"
+                },
+                {
+                    "title": " AWS Directory Service",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/directoryservice"
+                },
+                {
+                    "title": " AWS Firewall Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/firewall-manager"
+                },
+                {
+                    "title": " Amazon GuardDuty",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/guardduty"
+                },
+                {
+                    "title": " AWS Identity and Access Management IAM",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/iam"
+                },
+                {
+                    "title": " Amazon Inspector",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/inspector"
+                },
+                {
+                    "title": " AWS Key Management Service AWS KMS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/kms"
+                },
+                {
+                    "title": " Amazon Macie",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/macie"
+                },
+                {
+                    "title": " AWS Network Firewall",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/network-firewall"
+                },
+                {
+                    "title": " AWS Resource Access Manager AWS RAM",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ram"
+                },
+                {
+                    "title": " AWS Secrets Manager",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/secrets-manager"
+                },
+                {
+                    "title": " AWS Security Hub",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/security-hub"
+                },
+                {
+                    "title": " AWS Shield",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/shield"
+                },
+                {
+                    "title": " AWS Single Sign-On",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/single-sign-on"
+                },
+                {
+                    "title": " AWS WAF",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/waf"
+                }
+            ]
+        },
+        {
+            "title": "Serverless",
+            "services":
+            [
+                {
+                    "title": " AWS AppSync",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/appsync"
+                },
+                {
+                    "title": " AWS Fargate",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/fargate"
+                },
+                {
+                    "title": " AWS Lambda",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/lambda"
+                }
+            ]
+        },
+        {
+            "title": "Storage",
+            "services":
+            [
+                {
+                    "title": " AWS Backup",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/backup"
+                },
+                {
+                    "title": " Amazon Elastic Block Store Amazon EBS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/ebs"
+                },
+                {
+                    "title": " Amazon Elastic File System Amazon EFS",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/efs"
+                },
+                {
+                    "title": " Amazon FSx for all types",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/fsx"
+                },
+                {
+                    "title": " Amazon S3",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/s3"
+                },
+                {
+                    "title": " Amazon S3 Glacier",
+                    "status": "modified",
+                    "url": "https://aws.amazon.com/glacier"
+                },
+                {
+                    "title": " AWS Storage Gateway",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/storage-gateway"
+                },
+                {
+                    "title": "",
+                    "status": "ok",
+                    "url": "https://aws.amazon.com/"
+                }
+            ]
+        }
+    ]
+}

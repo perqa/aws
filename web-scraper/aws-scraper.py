@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 
 baseurl = 'https://aws.amazon.com/'
-with open('/Users/per.aronsson/Documents/AWS/data-mod.json', 'r') as datafile:
+with open('./docs/data-mod.json', 'r') as datafile:
   data=datafile.read()
 
 obj = json.loads(data)
@@ -35,6 +35,6 @@ for i, category in enumerate(categories):
     #print('*', end='', flush=True)
 print('\nFinished', end='\n', flush=True)
 jsonString = json.dumps(obj)
-jsonFile = open("/Users/per.aronsson/Documents/AWS/data.json", "w")
+jsonFile = open("./docs/data.json", "w")
 jsonFile.write(jsonString)
 jsonFile.close()
