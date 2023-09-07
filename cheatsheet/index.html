@@ -194,6 +194,11 @@
       padding: 10px !important;
     }
 
+    table.waffle tr:hover td.service, table.waffle tr:hover td.description {
+      background-color: lightyellow !important;
+      cursor: pointer;
+    }
+
     @media print {
         * {
             overflow: visible !important;
@@ -267,7 +272,7 @@
                         <div class="row-header-wrapper">4</div>
                     </th>
                     <td class="service s3"><a target="_blank" href="https://aws.amazon.com/emr">Amazon EMR</a></td>
-                    <td class="description s3">Big data processing - cloud solution for petabyte-scale data processing, interactive analytics, and machine learning.</td>
+                    <td class="description s3">EMR, originally Elastic Map-Reduce, is used for big data processing. It's a cloud solution for petabyte-scale data processing, interactive analytics, and machine learning.</td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -283,7 +288,7 @@
                         <div class="row-header-wrapper">6</div>
                     </th>
                     <td class="service s3"><a target="_blank" href="https://aws.amazon.com/kinesis">Amazon Kinesis</a></td>
-                    <td class="description s3">Amazon Kinesis (Real time analytics) cost-effectively processes and analyzes streaming data at any scale as a fully managed service. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications.</td>
+                    <td class="description s3">Amazon Kinesis is for real-time analytics. It cost-effectively processes and analyzes streaming data at any scale as a fully managed service. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications.</td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -493,7 +498,10 @@
                     </th>
                     <td class="category s17" rowspan="6">Containers</td>
                     <td class="service s17"><a target="_blank" href="https://aws.amazon.com/ecr">Amazon Elastic Container Registry (Amazon ECR)</a></td>
-                    <td class="description s17">Amazon ECR is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere. ECR provides the repository for all code which has been written and packaged as Docker images.
+                    <td class="description s17">Amazon ECR is a fully managed container registry which hosts Docker images in a highly available and scalable architecture, to share and deploy containers for applications reliably.<br><br>
+
+                    Amazon ECR is integrated with Amazon Elastic Container Service (Amazon ECS),  Amazon Elastic Kubernetes Service (Amazon EKS), AWS Lambda and IAM, simplifying your development to production workflow.
+
                     </td>
                     <td class="s6"></td>
                 </tr>
@@ -543,7 +551,7 @@
                     </th>
                     <td class="category s20" rowspan="11">Database</td>
                     <td class="service s20"><a target="_blank" href="https://aws.amazon.com/aurora">Amazon Aurora</a></td>
-                    <td class="description s20" dir="ltr">Unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility. Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.</td>
+                    <td class="description s20" dir="ltr">Relational database with unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility. Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.</td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -615,7 +623,7 @@
                         <div class="row-header-wrapper">46</div>
                     </th>
                     <td class="service s20"><a target="_blank" href="https://aws.amazon.com/redshift">Amazon Redshift</a></td>
-                    <td class="description s20">Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.</td>
+                    <td class="description s20">Amazon Redshift is a data warehouse tool which uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.</td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -882,7 +890,10 @@
                         <div class="row-header-wrapper">79</div>
                     </th>
                     <td class="service s29"><a target="_blank" href="https://aws.amazon.com/servicecatalog">AWS Service Catalog</a></td>
-                    <td class="description s29">AWS Service Catalog: centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC) templates, written in CloudFormation or Terraform. With AWS Service Catalog, you can meet your compliance requirements while making sure your customers can quickly deploy the cloud resources they need.</td>
+                    <td class="description s29">AWS Service Catalog allows IT administrators to create, manage, and distribute catalogs of approved products to end users, who can then access the products they need in a personalized portal. <br><br>
+
+
+                    AWS Service Catalog provides central management of cloud resources to achieve governance at scale of your infrastructure as code (IaC) templates, written in CloudFormation or Terraform. </td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -890,7 +901,8 @@
                         <div class="row-header-wrapper">80</div>
                     </th>
                     <td class="service s29"><a target="_blank" href="https://aws.amazon.com/systems-manager">AWS Systems Manager</a></td>
-                    <td class="description s29">AWS Systems Manager is a secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments.</td>
+                    <td class="description s29">AWS Systems Manager allows you to centralize operational data from multiple AWS services and automate tasks across your resources on AWS, and in multicloud and hybrid environments.
+                    </td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -980,7 +992,15 @@
                         <div class="row-header-wrapper">91</div>
                     </th>
                     <td class="service s3"><a target="_blank" href="https://aws.amazon.com/snow">AWS Snow Family</a></td>
-                    <td class="description s3">Snowcone, Snowball and Snowmobile are purpose-built devices to cost-effectively move petabytes of data, offline. Lease a Snow device to move your data to the cloud.</td>
+                    <td class="description s3">Snowcone, Snowball and Snowmobile are purpose-built devices to cost-effectively move petabytes of data, offline. Lease a Snow device to move your data to the cloud. Capacity:
+                        <ul>
+                            <li>Snowcone: 22TB</li>
+                            <li>Snowball Edge Storage Optimized 80: 81 TB</li>
+                            <li>Snowball Edge Storage Optimized 210: 210 TB</li>
+                            <li>Snowball Edge Compute Optimized: 28 TB</li>
+                            <li>Snowmobile: 100 PB</li>
+                        </ul>
+                    </td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -1018,9 +1038,10 @@
                         <a href="https://en.wikipedia.org/wiki/OSI_model">OSI Layers</a>
                         <ul>
                             <li>Application Load Balancer [Layer 7] (Application, e g http)</li>
-                            <li>Network Load Balancer [Layer 4] (Transport)</li>
-                            <li>Gateway Load Balancer [Layer 3-4] (Network, Transport)</li>
+                            <li>Network Load Balancer [Layer 4] (Transport, e g TCP, UDP, for extreme performance/low latency applications)</li>
+                            <li>Gateway Load Balancer [Layer 3-4] (Network, Transport, for third-party virtual appliances)</li>
                         </ul>
+                        With VPC endpoints, the routing between the VPC and Elastic Load Balancing APIs is handled by the AWS network without the need for an Internet gateway, NAT gateway, or VPN connection. The latest generation of VPC Endpoints used by Elastic Load Balancing are powered by AWS PrivateLink, connecting AWS services using Elastic Network Interfaces (ENI) with private IPs in your VPCs.
                     </td>
                     <td class="s6"></td>
                 </tr>
@@ -1037,7 +1058,7 @@
                         <div class="row-header-wrapper">97</div>
                     </th>
                     <td class="service s11"><a target="_blank" href="https://aws.amazon.com/privatelink">AWS PrivateLink</a></td>
-                    <td class="description s11">AWS PrivateLink is the feature that powers VPC endpoints. PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet. Interface VPC endpoints, powered by PrivateLink, connect you to services hosted by AWS Partners and supported solutions available in AWS Marketplace.</td>
+                    <td class="description s11">AWS PrivateLink is the feature that powers VPC endpoints. PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet. Interface VPC endpoints, powered by PrivateLink, connect you to services hosted by AWS Partners and supported solutions available in AWS Marketplace. </td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -1045,7 +1066,8 @@
                         <div class="row-header-wrapper">98</div>
                     </th>
                     <td class="service s11"><a target="_blank" href="https://aws.amazon.com/route53">Amazon Route 53</a></td>
-                    <td class="description s11">Amazon Route 53 is a highly available and scalable DNS (Domain Name System) service. Route 53 connects user requests to internet applications running on AWS or on-premises.</td>
+                    <td class="description s11">Amazon Route 53 is a highly available and scalable DNS (Domain Name System) service. Route 53 connects user requests to internet applications running on AWS or on-premises, performs health checks of those applications, and can be used for DNS failover.
+                    </td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -1103,7 +1125,8 @@
                         <div class="row-header-wrapper">105</div>
                     </th>
                     <td class="service s11"><a target="_blank" href="https://aws.amazon.com/cloudhsm">AWS CloudHSM</a></td>
-                    <td class="description s11">AWS CloudHSM lets you manage and access your keys on FIPS-validated hardware, protected with customer-owned, single-tenant HSM instances that run in your own Virtual Private Cloud (VPC). Single-tenant, fine-grained control but also more maintenance-demanding and more costly alternative to AWS KMS. FIPS 140-2 Compliance: 3.</td>
+                    <td class="description s11">HSM = Hardware Security Module. AWS CloudHSM lets you manage and access your keys on FIPS-validated hardware, protected with customer-owned, single-tenant HSM instances that run in your own Virtual Private Cloud (VPC).
+                    Compared to AWS KMS, CloudHSM is single-tenant, provides fine-grained control but is also more maintenance-demanding and more costly. FIPS 140-2 Compliance: 3.</td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
@@ -1191,7 +1214,7 @@
                         <div class="row-header-wrapper">116</div>
                     </th>
                     <td class="service s11"><a target="_blank" href="https://aws.amazon.com/ram">AWS Resource Access Manager (AWS RAM)</a></td>
-                    <td class="description s11">AWS RAM helps you securely share your resources across AWS accounts, within your organization or organizational units (OUs), and with IAM roles and users for supported resource types.</td>
+                    <td class="description s11">AWS RAM helps you securely share your resources across AWS accounts, within your organization or organizational units (OUs), and with IAM roles and users for supported resource types. Examples include sharing VPC subnets and private certificate authorities across accounts. </td>
                     <td class="s6"></td>
                 </tr>
                 <tr>
