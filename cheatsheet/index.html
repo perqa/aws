@@ -214,7 +214,49 @@
 
     }
 
+    .ritz .waffle .flip {
+        text-align: center;
+    }
+
     </style>
+    <script>
+
+        function init() {
+            var descs = document.querySelectorAll('.description');
+            var flips = [];
+
+            function hideAll() {
+                var flip = document.createElement('td');
+                    flip.textContent = '    ?  Click to reveal  ?';
+                var parent;
+                for (var i = 0; i < descs.length; i++) {
+                    var flipp = flip.cloneNode(true);
+                    flipp.classList = descs[i].classList;
+                    flipp.classList.add('flip');
+                    flipp.onclick = function(index) {
+                        return function() {
+                            unHide(index);
+                        }
+                    }(i);
+                    flips.push(flipp);
+                    parent = descs[i].parentNode;
+                    parent.insertBefore(flipp, descs[i]);
+                    descs[i].style.display = 'none';
+                }
+            }
+
+            function unHide(index) {
+                descs[index].style.display = '';
+                flips[index].style.display = 'none';
+            }
+
+            hideAll();
+        }
+
+        if (window.location.search.indexOf('flip') > -1) {
+            window.onload = init;
+        }
+    </script>
 </head>
 <body>
     <div class="ritz grid-container" dir="ltr">
@@ -230,7 +272,9 @@
                 <tr>
                     <th colspan="5" class="column-headers-background header">
                         <h2>Cheat sheet for AWS Certified Solutions Architect - Associate, SAA-C03</h2>
-                        Short descriptions/definitions of all AWS services included in the SAA-C03 exam, according to the official exam guide
+                        Short descriptions/definitions of all AWS services included in the SAA-C03 exam, according to the official exam guide.
+                        Optimised for Chrome browser.
+                        <br>
                     </th>
                 </tr>
             </thead>
