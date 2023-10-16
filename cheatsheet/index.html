@@ -216,7 +216,12 @@
 
     .ritz .waffle .flip {
         text-align: center;
+        background-image: url('./resources/flip-icon-24.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50px;
     }
+
 
     </style>
     <script>
@@ -227,7 +232,7 @@
 
             function hideAll() {
                 var flip = document.createElement('td');
-                    flip.textContent = '    ?  Click to reveal  ?';
+                    //flip.textContent = '    ?  Click to reveal  ?';
                 var parent;
                 for (var i = 0; i < descs.length; i++) {
                     var flipp = flip.cloneNode(true);
